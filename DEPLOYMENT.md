@@ -48,3 +48,14 @@ The final command should report 136 passing tests on the current suite.
 Check the deployed EN and ES home routes, one internal route, the 404 route, the mobile menu, the Preview interactions, and the Discord links. Also inspect the browser console once under the Cloudflare headers; the dashboard progress bar uses a CSSOM-applied transform and should remain free of CSP errors.
 
 The public domain is still a deployment decision. Until it is configured, the UI can be previewed on the generated `.pages.dev` hostname, while absolute sitemap, canonical, and Open Graph URLs remain intentionally disabled.
+
+## Worker deployment note
+
+If the deployment URL ends in `.workers.dev`, deploy from the project root with Wrangler so `wrangler.toml` is applied. Its `assets.not_found_handling = "single-page-application"` setting is required for `/en/`, `/es/`, and other client-side routes to serve `index.html`. A root-only Worker deployment can return `404` for those routes even when `/` works.
+
+```powershell
+npm run build
+npx wrangler deploy
+```
+
+For a Pages project ending in `.pages.dev`, upload the contents of `dist`; the generated `public/_redirects` file provides the SPA fallback there.
