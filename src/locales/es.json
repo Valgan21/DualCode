@@ -1,0 +1,1027 @@
+{
+  "meta": {
+    "siteName": "DualCode",
+    "tagline": "Tu código. Tu IA. Tu control.",
+    "faq": {
+      "title": "Preguntas frecuentes — DualCode",
+      "description": "Respuestas directas sobre DualCode: qué es, qué existe hoy, privacidad, modelos, precios y cómo seguir el proyecto."
+    },
+    "contact": {
+      "title": "Contacto — DualCode",
+      "description": "Cómo contactar con el equipo de DualCode. Aquí solo aparecen los canales que los responsables han publicado."
+    },
+    "home": {
+      "title": "DualCode — Un espacio de trabajo. Múltiples inteligencias.",
+      "description": "DualCode es un IDE en desarrollo creado en torno a agentes de IA que colaboran en un mismo espacio mientras el desarrollador mantiene el control."
+    },
+    "community": {
+      "title": "Comunidad — DualCode",
+      "description": "Construye el futuro de DualCode con nosotros: novedades, feedback, reportes de errores y conversaciones técnicas."
+    },
+    "notFound": {
+      "title": "Página no encontrada — DualCode",
+      "description": "Esta página no existe."
+    },
+    "privacy": {
+      "title": "Privacidad ante todo — DualCode",
+      "description": "Los principios de privacidad en los que se basa DualCode y una descripción exacta de lo que esta web recoge y no recoge."
+    },
+    "transparency": {
+      "title": "Transparencia — DualCode",
+      "description": "Qué está disponible, qué es experimental y qué está planificado en DualCode, adónde van los datos y cómo informamos de ello."
+    },
+    "technology": {
+      "title": "Tecnología — DualCode",
+      "description": "Cómo está diseñado DualCode para coordinar agentes de IA: desarrollador, orquestador, agentes, espacio de trabajo y revisión."
+    },
+    "product": {
+      "title": "Producto — DualCode",
+      "description": "Una mirada transparente al espacio de trabajo de DualCode: editor, agentes, orquestación, revisión y contexto local."
+    },
+    "preview": {
+      "title": "Vista previa interactiva — DualCode",
+      "description": "Explora un concepto guionizado y solo de interfaz sobre cómo podrían colaborar los agentes, las tareas y la memoria local de DualCode."
+    },
+    "roadmap": {
+      "title": "Hoja de ruta — DualCode",
+      "description": "La hoja de ruta cualitativa de DualCode, con estados transparentes y sin fechas inventadas."
+    },
+    "team": {
+      "title": "Equipo — DualCode",
+      "description": "Conoce al equipo humano de DualCode, sin cargos ni biografías no confirmados."
+    },
+    "enterprise": {
+      "title": "Visión empresarial — DualCode",
+      "description": "La visión a largo plazo para equipos y empresas, separada con claridad de lo disponible hoy."
+    },
+    "download": {
+      "title": "Descarga — DualCode",
+      "description": "El estado actual de descarga de DualCode y dónde seguir los anuncios verificados de acceso anticipado."
+    }
+  },
+  "a11y": {
+    "skip": "Saltar al contenido",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "mainNav": "Navegación principal",
+    "mobileNav": "Navegación móvil",
+    "language": "Idioma",
+    "switchToEn": "Switch to English",
+    "switchToEs": "Cambiar a español",
+    "home": "Inicio de DualCode",
+    "external": "(se abre en una pestaña nueva)"
+  },
+  "nav": {
+    "product": "Producto",
+    "technology": "Tecnología",
+    "privacy": "Privacidad",
+    "transparency": "Transparencia",
+    "roadmap": "Hoja de ruta",
+    "community": "Comunidad",
+    "team": "Equipo",
+    "enterprise": "Empresas",
+    "download": "Descarga",
+    "preview": "Demostración interactiva",
+    "faq": "Preguntas frecuentes",
+    "contact": "Contacto"
+  },
+  "status": {
+    "available": "Disponible",
+    "experimental": "Experimental",
+    "planned": "Planificado",
+    "futureVision": "Visión a futuro",
+    "inDevelopment": "En desarrollo",
+    "concept": "Vista conceptual",
+    "principle": "Principio de diseño"
+  },
+  "discord": {
+    "join": "Únete a nuestro Discord",
+    "short": "Discord"
+  },
+  "footer": {
+    "blurb": "Un IDE en desarrollo para la colaboración multiagente. Local primero por diseño, con el desarrollador al mando.",
+    "product": "Producto",
+    "project": "Proyecto",
+    "statusLine": "Estado del producto: en desarrollo. Nada en este sitio es un anuncio de lanzamiento.",
+    "rights": "© DualCode. Todos los derechos reservados.",
+    "noTracking": "Este sitio no carga analíticas, píxeles publicitarios ni scripts de terceros.",
+    "github": "GitHub",
+    "contactMail": "Correo",
+    "trust": "Confianza",
+    "follow": "Sigue la construcción",
+    "followBody": "Las novedades, el feedback y los reportes de errores ocurren en el Discord de la comunidad."
+  },
+  "home": {
+    "title": "Un espacio de trabajo. Múltiples mentes. Control total.",
+    "subtitle": "DualCode es un IDE de nueva generación donde los agentes de IA colaboran, comparten contexto y ayudan a los desarrolladores a construir más rápido, sin sacrificar transparencia, privacidad ni control.",
+    "why": {
+      "kicker": "Por qué existe DualCode",
+      "title": "No es otro editor con una caja de chat.",
+      "body": "Un único asistente añadido a un editor tiene una sola visión de tu proyecto y una sola forma de fallar. DualCode parte de otra pregunta: ¿y si varios agentes pudieran especializarse, compartir contexto útil y pasarse trabajo entre sí, con cada paso visible para ti?",
+      "points": [
+        "Agentes especializados en lugar de un generalista.",
+        "Contexto compartido que puedes inspeccionar y editar.",
+        "Permisos y confirmaciones antes de que un agente toque tus archivos."
+      ],
+      "belief": "Creemos que debes poder ver qué lee, decide y cambia cada agente, y poder decir que no."
+    },
+    "agents": {
+      "kicker": "Colaboración multiagente",
+      "title": "Claude y Codex, en la misma sala.",
+      "body": "Los agentes trabajan lado a lado en un solo espacio. Uno redacta, otro revisa; uno explora el código, otro ejecuta las comprobaciones. Tú lees la transcripción, apruebas lo importante y rediriges cuando no estés de acuerdo.",
+      "emblemAlt": "Logo de DualCode: dos cabezas enfrentadas dentro de un bucle infinito, una naranja con una chispa y otra turquesa con corchetes de código",
+      "claude": "Claude",
+      "codex": "Codex",
+      "you": "Tú",
+      "claudeRole": "Planifica, escribe y explica.",
+      "codexRole": "Implementa, prueba y contrasta.",
+      "youRole": "Decide, aprueba, redirige.",
+      "note": "La disponibilidad de proveedores depende de las cuentas y herramientas que conectes. Nada aquí implica una alianza oficial con ningún proveedor."
+    },
+    "privacy": {
+      "kicker": "Privacidad, control y memoria local",
+      "title": "Tu espacio de trabajo te pertenece.",
+      "body": "DualCode está diseñado para que el producto no envíe datos por defecto y para que la memoria del proyecto viva primero en tu equipo. Son principios hacia los que construimos; la página de Transparencia indica qué está realmente implementado.",
+      "caveat": "Con precisión: al usar un modelo en la nube, los prompts y el contexto que envías llegan a ese proveedor. Que DualCode no tenga telemetría no cambia lo que recibe un proveedor.",
+      "cta": "Leer los principios de privacidad"
+    },
+    "quantum": {
+      "kicker": "DualQuantum",
+      "title": "Recuperación de contexto, organizada en local.",
+      "body": "DualQuantum es una tecnología en desarrollo centrada en recuperar el contexto adecuado, organizar el conocimiento en tu equipo y gastar menos recursos en ello. Publicaremos cifras solo cuando podamos reproducirlas.",
+      "cta": "Cómo encaja todo"
+    },
+    "roadmap": {
+      "kicker": "Hoja de ruta y estado",
+      "title": "Qué existe y qué todavía no.",
+      "body": "Cada capacidad se etiqueta como Disponible, Experimental, Planificada o Visión futura. No se prometen fechas.",
+      "cta": "Ver la hoja de ruta"
+    },
+    "community": {
+      "kicker": "Comunidad",
+      "title": "Construye el futuro de DualCode con nosotros.",
+      "body": "Sigue el desarrollo, envía feedback, reporta errores y conversa con quienes lo construyen.",
+      "cta": "Conocer la comunidad"
+    },
+    "team": {
+      "kicker": "Conoce al equipo",
+      "title": "Las personas detrás de DualCode.",
+      "body": "Cinco personas. Los roles y biografías aparecerán cuando cada una los confirme.",
+      "cta": "Conoce al equipo"
+    },
+    "final": {
+      "title": "Tu código. Tu IA. Tu control.",
+      "body": "DualCode está en desarrollo. La mejor forma de seguirlo es unirte a la conversación."
+    },
+    "ctaDashboard": "Míralo en acción",
+    "highlights": [
+      {
+        "label": "Agentes",
+        "value": "Claude y Codex, lado a lado"
+      },
+      {
+        "label": "Memoria",
+        "value": "Local primero por diseño"
+      },
+      {
+        "label": "Control",
+        "value": "Tú apruebas lo importante"
+      },
+      {
+        "label": "Estado",
+        "value": "En desarrollo"
+      }
+    ],
+    "pillars": {
+      "kicker": "Pilares",
+      "title": "Seis ideas sobre las que se construye el producto.",
+      "body": "Cada pilar indica su estado real. Algunos son principios que ya aplicamos, otros están en desarrollo y otros son todavía una dirección a largo plazo.",
+      "items": [
+        {
+          "id": "multi",
+          "title": "Colaboración multiagente",
+          "body": "Varios agentes trabajan en un solo espacio, se reparten el trabajo según sus fortalezas y se pasan tareas entre sí en lugar de pelear por tu cursor.",
+          "status": "inDevelopment",
+          "to": "product",
+          "cta": "Cómo funciona"
+        },
+        {
+          "id": "transparency",
+          "title": "Transparencia",
+          "body": "Cada paso es una transcripción legible: qué leyó un agente, qué cambió y por qué. Nada ocurre fuera de pantalla.",
+          "status": "principle",
+          "to": "transparency",
+          "cta": "Qué está implementado"
+        },
+        {
+          "id": "privacy",
+          "title": "Privacidad primero",
+          "body": "Sin analíticas ni scripts de terceros en este sitio, y sin telemetría de producto por diseño. Los modelos en la nube siguen recibiendo lo que les envías.",
+          "status": "principle",
+          "to": "privacy",
+          "cta": "Principios de privacidad"
+        },
+        {
+          "id": "memory",
+          "title": "Memoria local",
+          "body": "Las notas y el contexto del proyecto están pensados para vivir primero en tu equipo, donde puedes inspeccionarlos, editarlos y borrarlos.",
+          "status": "inDevelopment",
+          "to": "technology",
+          "cta": "La tecnología"
+        },
+        {
+          "id": "security",
+          "title": "Seguridad y permisos",
+          "body": "Los agentes preguntan antes de escribir archivos o ejecutar comandos. Los ámbitos de permisos se están diseñando y no son definitivos.",
+          "status": "planned",
+          "to": "privacy",
+          "cta": "Modelo de permisos"
+        },
+        {
+          "id": "enterprise",
+          "title": "Visión empresarial",
+          "body": "Las políticas compartidas y los controles de equipo son una dirección a largo plazo, no un producto que puedas comprar hoy.",
+          "status": "futureVision",
+          "to": "enterprise",
+          "cta": "Leer la visión"
+        }
+      ]
+    }
+  },
+  "community": {
+    "kicker": "Comunidad",
+    "title": "Construye el futuro de DualCode con nosotros.",
+    "subtitle": "DualCode se construye a la vista de todos: lo que publicamos, lo que rompemos y lo que deberíamos hacer después.",
+    "bannerTitle": "Únete a la comunidad de DualCode",
+    "bannerBody": "Novedades del desarrollo, avances del IDE, feedback, ideas, reportes de errores, demos y conversaciones técnicas.",
+    "findTitle": "Qué encontrarás",
+    "find": [
+      "Novedades y avances del desarrollo del IDE",
+      "Un lugar para dar feedback y proponer ideas",
+      "Reportes de errores que llegan a quienes los corrigen",
+      "Demos y proyectos de otros usuarios",
+      "Conversaciones técnicas sobre agentes y herramientas"
+    ],
+    "channelsTitle": "Canales propuestos",
+    "channelsNote": "Esto es una propuesta. Confirmaremos la lista real de canales cuando el servidor esté configurado.",
+    "channels": [
+      {
+        "name": "#announcements",
+        "desc": "Lanzamientos y noticias importantes"
+      },
+      {
+        "name": "#general",
+        "desc": "Conversación abierta"
+      },
+      {
+        "name": "#feedback",
+        "desc": "Qué funciona y qué no"
+      },
+      {
+        "name": "#bug-reports",
+        "desc": "Problemas reproducibles"
+      },
+      {
+        "name": "#showcase",
+        "desc": "Enseña lo que has creado"
+      },
+      {
+        "name": "#ideas",
+        "desc": "Propuestas de funciones"
+      },
+      {
+        "name": "#help",
+        "desc": "Preguntas y soporte"
+      }
+    ],
+    "contributeTitle": "Participa",
+    "contribute": [
+      {
+        "title": "Sugiere una función",
+        "body": "Describe el problema que quieres resolver, no solo la función que imaginas."
+      },
+      {
+        "title": "Informa de un error",
+        "body": "Incluye tu sistema operativo, los pasos para reproducirlo y lo que esperabas que ocurriera."
+      },
+      {
+        "title": "Únete a las pruebas",
+        "body": "Las pruebas públicas se anunciarán en la comunidad cuando haya una versión lista."
+      }
+    ],
+    "statusTitle": "Estado del producto",
+    "statusRows": [
+      {
+        "label": "IDE",
+        "value": "En desarrollo"
+      },
+      {
+        "label": "Descarga pública",
+        "value": "Aún no disponible"
+      },
+      {
+        "label": "Acceso anticipado",
+        "value": "Aún no abierto"
+      },
+      {
+        "label": "Servidor de la comunidad",
+        "value": "Enlace pendiente"
+      }
+    ],
+    "statusNote": "Se mantiene a mano desde el archivo de estado del proyecto. No es un contador en vivo.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Cómo me uno?",
+        "a": "Usa el botón Únete a nuestro Discord de esta página. Abre la invitación al servidor oficial."
+      },
+      {
+        "q": "¿Dónde informo de un problema?",
+        "a": "En el canal de reportes de errores cuando el servidor esté abierto, con tu sistema operativo, los pasos para reproducirlo y lo que esperabas."
+      },
+      {
+        "q": "¿Cómo sigo la hoja de ruta?",
+        "a": "La página de la hoja de ruta lista cada etapa con su estado real, y los anuncios se publicarán en la comunidad."
+      }
+    ],
+    "linksTitle": "Enlaces oficiales",
+    "linksNote": "Aquí solo aparecen los enlaces que aportan los responsables."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "body": "Esa dirección no existe en este sitio.",
+    "back": "Volver al inicio"
+  },
+  "privacy": {
+    "kicker": "Privacidad ante todo",
+    "title": "Tu espacio de trabajo te pertenece.",
+    "subtitle": "Estos son los principios de privacidad en los que se basa DualCode. Son objetivos de diseño. La página de Transparencia indica qué está realmente implementado, y mientras algo no esté verificado no lo presentamos como una garantía.",
+    "sections": [
+      {
+        "title": "Sin telemetría por defecto",
+        "status": "principle",
+        "body": "El objetivo es que DualCode no envíe telemetría de uso a menos que tú decidas activar algo.",
+        "items": []
+      },
+      {
+        "title": "Memoria prioritaria local",
+        "status": "principle",
+        "body": "La memoria y las notas del proyecto están pensadas para vivir primero en tu equipo, de una forma que puedas inspeccionar.",
+        "items": []
+      },
+      {
+        "title": "Control del contexto almacenado",
+        "status": "principle",
+        "body": "Deberías poder ver y cambiar lo que se recuerda.",
+        "items": [
+          "Ver qué se guarda.",
+          "Editar o eliminar entradas.",
+          "Decidir qué se comparte entre agentes."
+        ]
+      },
+      {
+        "title": "Permisos y confirmaciones",
+        "status": "principle",
+        "body": "Los agentes deberían preguntar antes de modificar archivos o ejecutar comandos, y tú deberías poder revisar después lo que hicieron.",
+        "items": []
+      },
+      {
+        "title": "Transparencia de proveedores",
+        "status": "principle",
+        "body": "Cuando conectas un proveedor de modelos en la nube, los prompts y el contexto del proyecto necesarios para cada petición se envían a ese proveedor y se tratan según sus propios términos. Esto es independiente de la telemetría de DualCode, y no podemos prometer nada sobre las prácticas de un proveedor. Lee sus políticas.",
+        "items": []
+      },
+      {
+        "title": "Conservación y eliminación claras",
+        "status": "principle",
+        "body": "Deberías poder saber cuánto tiempo se conserva algo y poder eliminarlo. Los detalles concretos se documentarán cuando existan.",
+        "items": []
+      }
+    ],
+    "siteTitle": "Sobre este sitio web",
+    "siteItems": [
+      "Sin analíticas, píxeles publicitarios ni scripts de seguimiento. Las fuentes y las imágenes se sirven desde el propio sitio.",
+      "Tu elección de idioma se guarda en el almacenamiento local de tu navegador bajo la clave dualcode.lang. Permanece en tu dispositivo.",
+      "El sitio está preparado para alojarse en Cloudflare Pages. Cloudflare, como cualquier proveedor de alojamiento, puede conservar registros técnicos estándar de las peticiones para operar su infraestructura. Es independiente del código del sitio y de la aplicación DualCode.",
+      "Esto no es una política de privacidad formal. Una política legal necesita revisión humana antes de publicarse."
+    ],
+    "limits": "Lo que no decimos: que nada salga nunca de tu equipo, que DualCode funcione totalmente sin conexión, ni que algún proveedor trate tus datos de una forma determinada."
+  },
+  "transparency": {
+    "kicker": "Transparencia",
+    "title": "Qué es real y qué todavía no.",
+    "subtitle": "DualCode está en desarrollo. Esta página separa lo que existe de lo que pretendemos construir, para que puedas juzgarlo con hechos.",
+    "legendTitle": "Cómo etiquetamos",
+    "legend": [
+      {
+        "status": "available",
+        "body": "Implementado y utilizable hoy."
+      },
+      {
+        "status": "experimental",
+        "body": "Funciona en parte y puede cambiar o fallar."
+      },
+      {
+        "status": "planned",
+        "body": "Previsto, aún sin construir."
+      },
+      {
+        "status": "futureVision",
+        "body": "Una dirección a largo plazo sin compromiso."
+      },
+      {
+        "status": "principle",
+        "body": "Un objetivo de diseño hacia el que construimos y que aún no hemos verificado."
+      }
+    ],
+    "featuresTitle": "Capacidades",
+    "featuresNote": "Estos estados son provisionales. El equipo aún no los ha confirmado, así que nada figura como Disponible. Se mantienen en un único archivo de datos y se actualizarán a partir de la versión real.",
+    "feature": {
+      "editor": {
+        "name": "Editor de código y explorador de archivos",
+        "desc": "Edición y navegación por los archivos del proyecto."
+      },
+      "agentSessions": {
+        "name": "Sesiones de agente",
+        "desc": "Una vista independiente para cada agente que trabaja en el proyecto."
+      },
+      "orchestration": {
+        "name": "Orquestación",
+        "desc": "Reparto de tareas entre agentes."
+      },
+      "history": {
+        "name": "Historial de operaciones y aprobaciones",
+        "desc": "Un registro de lo que hicieron los agentes y de lo que aprobaste."
+      },
+      "terminal": {
+        "name": "Terminal y revisión de código",
+        "desc": "Ejecución de comandos y revisión de cambios en el espacio de trabajo."
+      },
+      "memory": {
+        "name": "Memoria local",
+        "desc": "Conocimiento del proyecto guardado en tu equipo."
+      },
+      "visualBrain": {
+        "name": "Visual Brain",
+        "desc": "Una forma visual de explorar la memoria almacenada."
+      },
+      "dualQuantum": {
+        "name": "DualQuantum",
+        "desc": "Recuperación de contexto y organización local del conocimiento."
+      },
+      "teams": {
+        "name": "Espacios de equipo",
+        "desc": "Espacios y políticas compartidos para grupos."
+      },
+      "enterprise": {
+        "name": "Controles empresariales",
+        "desc": "SSO, acceso por roles, auditoría y políticas de datos."
+      }
+    },
+    "sections": [
+      {
+        "title": "Adónde van tus datos",
+        "body": "Hay dos cosas distintas que es fácil confundir.",
+        "items": [
+          "Guardado en local: la intención es que la memoria y los ajustes del proyecto permanezcan en tu equipo. Lo que se guarda hoy se listará aquí cuando esté confirmado.",
+          "Enviado a proveedores: si usas un modelo en la nube, los prompts y el contexto de cada petición llegan a ese proveedor. Que DualCode no tenga telemetría no cambia eso."
+        ]
+      },
+      {
+        "title": "Telemetría, en lenguaje sencillo",
+        "body": "Nuestro objetivo es que DualCode no nos informe de tu uso a menos que lo aceptes. Es un principio hasta que podamos verificarlo y documentarlo. Este sitio web no usa analíticas.",
+        "items": []
+      },
+      {
+        "title": "Licencias y dependencias",
+        "body": "En este sitio no se declara ninguna licencia de código fuente, así que no describimos DualCode como código abierto. La información sobre dependencias y licencias se publicará aquí cuando el proyecto la ponga a disposición.",
+        "items": []
+      },
+      {
+        "title": "Pruebas y cómo informar de problemas",
+        "body": "Este sitio web se comprueba con pruebas automatizadas en navegador y revisión visual manual antes de publicarse. Todavía no se ha publicado un contacto de seguridad específico. Mientras tanto, no envíes detalles sensibles de vulnerabilidades por canales públicos.",
+        "items": []
+      },
+      {
+        "title": "Registro de cambios",
+        "body": "Aún no hay versiones públicas. Cuando las haya, esta página listará únicamente cambios reales.",
+        "items": []
+      }
+    ]
+  },
+  "technology": {
+    "kicker": "Tecnología",
+    "title": "Cómo se pretende que encajen las piezas.",
+    "subtitle": "Una visión conceptual de la arquitectura de DualCode. Describe el diseño previsto, no una implementación terminada.",
+    "flowTitle": "El flujo",
+    "flow": [
+      {
+        "name": "Desarrollador",
+        "desc": "Fija el objetivo y tiene la última palabra."
+      },
+      {
+        "name": "Orquestador",
+        "desc": "Divide el trabajo y lo reparte a los agentes."
+      },
+      {
+        "name": "Agentes",
+        "desc": "Trabajadores especializados como Claude y Codex."
+      },
+      {
+        "name": "Espacio de trabajo",
+        "desc": "Tus archivos, terminal y contexto del proyecto."
+      },
+      {
+        "name": "Revisión",
+        "desc": "Los cambios se comprueban y los apruebas tú."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Asignar y comprobar el trabajo",
+        "status": "planned",
+        "body": "El orquestador debe dividir una petición en tareas, dar cada una al agente más adecuado y recoger los resultados. Los resultados no se dan por buenos por defecto: otro agente o tú los revisáis antes de que se apliquen.",
+        "items": []
+      },
+      {
+        "title": "Tres cosas fáciles de confundir",
+        "body": "Mantenerlas separadas es esencial en el diseño.",
+        "items": [
+          "Memoria persistente: conocimiento sobre tu proyecto que dura entre sesiones y está pensado para permanecer en tu equipo.",
+          "Contexto de sesión: lo que los agentes están viendo ahora mismo, que desaparece al terminar la sesión.",
+          "Proveedor de modelo: el servicio que ejecuta un modelo. Solo ve lo que se envía en una petición."
+        ]
+      },
+      {
+        "title": "DualQuantum",
+        "status": "inDevelopment",
+        "body": "Una tecnología en desarrollo centrada en recuperar el contexto adecuado, organizar el conocimiento en local y ser eficiente al hacerlo. No publicamos cifras de tokens o velocidad hasta poder reproducirlas.",
+        "items": []
+      },
+      {
+        "title": "Lo que no afirmamos",
+        "body": "Este sitio no indica pruebas de rendimiento, porcentajes de ahorro ni comparaciones con otras herramientas, porque todavía no se han medido ni publicado.",
+        "items": []
+      }
+    ]
+  },
+  "roadmap": {
+    "kicker": "Hoja de ruta y estado",
+    "title": "Una dirección, sin fechas inventadas.",
+    "subtitle": "Estas etapas describen el orden en que se espera que crezca DualCode. Cada estado es cualitativo y queda sujeto a verificación.",
+    "stagesKicker": "El trabajo que viene",
+    "stagesTitle": "Cinco etapas conectadas",
+    "stagesNote": "La hoja de ruta es un mapa de intención, no un calendario de lanzamientos. Añadiremos avances concretos cuando haya una versión o una decisión que señalar.",
+    "stageLabel": "Etapa",
+    "noDates": "No prometemos fechas de entrega. La página Transparencia explica cómo se etiquetan los estados del producto.",
+    "stage": {
+      "foundation": {
+        "name": "Fundamentos",
+        "body": "La base de un espacio de trabajo fiable: proyectos, edición, navegación de archivos y las primeras sesiones de agentes."
+      },
+      "collaboration": {
+        "name": "Colaboración",
+        "body": "La capa de coordinación: tareas, traspasos, revisión, permisos y un registro claro de lo ocurrido."
+      },
+      "intelligence": {
+        "name": "Inteligencia",
+        "body": "Memoria local y herramientas de contexto, incluyendo DualQuantum y Visual Brain, para usar mejor el conocimiento del proyecto."
+      },
+      "platform": {
+        "name": "Plataforma",
+        "body": "Una superficie más amplia para extensiones, integraciones y personalización cuando el espacio de trabajo central sea fiable."
+      },
+      "teams": {
+        "name": "Equipos y empresas",
+        "body": "Una dirección a más largo plazo para políticas compartidas, administración, control de acceso y opciones de despliegue cuando sean viables."
+      }
+    }
+  },
+  "team": {
+    "kicker": "Conoce al equipo",
+    "title": "Cinco personas construyen DualCode.",
+    "subtitle": "Las personas de abajo forman el equipo humano. Mantenemos esta página deliberadamente factual hasta que cada una confirme qué quiere compartir.",
+    "peopleKicker": "Las personas",
+    "peopleTitle": "Primero los nombres. Los detalles, cuando estén confirmados.",
+    "peopleNote": "No inferimos cargos, nombres legales, biografías, fotografías ni enlaces sociales. Los identificadores aparecen exactamente como los proporcionó el equipo.",
+    "profilePending": "Detalles del perfil pendientes",
+    "agentsKicker": "Separados del equipo",
+    "agentsTitle": "Los agentes de IA ayudan a construir el sitio.",
+    "agentsNote": "Claude y Codex son herramientas usadas en la conversación de desarrollo. No son miembros humanos del equipo DualCode ni sustituyen a las personas listadas arriba.",
+    "claudeNote": "Colaborador de IA usado para planificar e implementar.",
+    "codexNote": "Colaborador de IA usado para implementar y verificar."
+  },
+  "enterprise": {
+    "kicker": "Visión empresarial",
+    "title": "Creado para desarrolladores. Pensado para crecer.",
+    "subtitle": "DualCode empieza con una persona y un espacio de trabajo. Esta es una dirección a largo plazo para equipos y organizaciones, no un producto que se pueda comprar hoy.",
+    "visionKicker": "Una posible progresión",
+    "visionTitle": "Del control personal al control compartido",
+    "visionNote": "El orden importa: la experiencia individual y sus límites van primero. Las capacidades para equipos y empresas siguen planificadas o son una visión futura hasta que existan y puedan verificarse.",
+    "cards": [
+      {
+        "id": "individual",
+        "status": "inDevelopment"
+      },
+      {
+        "id": "teams",
+        "status": "planned"
+      },
+      {
+        "id": "enterprise",
+        "status": "futureVision"
+      }
+    ],
+    "card": {
+      "individual": {
+        "title": "Individual",
+        "body": "Un espacio de trabajo personal donde el desarrollador puede inspeccionar el contexto, aprobar cambios y mantener cerca la memoria del proyecto.",
+        "items": [
+          "Contexto del proyecto en local",
+          "Trabajo de los agentes visible",
+          "La decisión final la tiene el desarrollador"
+        ]
+      },
+      "teams": {
+        "title": "Equipos",
+        "body": "Una dirección planificada para quienes necesitan colaborar en proyectos compartidos y con formas de trabajo acordadas.",
+        "items": [
+          "Espacios y políticas compartidos",
+          "Colaboración y revisión",
+          "Límites de contexto por equipo"
+        ]
+      },
+      "enterprise": {
+        "title": "Empresas",
+        "body": "Una visión futura para organizaciones con necesidades más fuertes de administración, seguridad y despliegue.",
+        "items": [
+          "SSO y acceso basado en roles",
+          "Auditoría y políticas de datos",
+          "Opciones de modelos privados o autogestionados"
+        ]
+      }
+    },
+    "boundaryKicker": "El límite",
+    "boundaryTitle": "No es una promesa comercial",
+    "boundaryBody": "Aquí no publicamos planes empresariales, precios, certificaciones ni compromisos de soporte. Documentaremos capacidades reales cuando exista un producto y una forma verificada de usarlo.",
+    "boundaryNote": "El registro de interés empresarial aparecerá solo cuando haya un endpoint real, un propósito claro y una política de privacidad adecuada."
+  },
+  "download": {
+    "kicker": "Descarga",
+    "title": "Todavía no está publicado.",
+    "subtitle": "DualCode sigue en desarrollo. Esta página será la fuente de las versiones oficiales cuando haya un lanzamiento listo y los enlaces estén verificados.",
+    "statusKicker": "Estado del lanzamiento",
+    "statusTitle": "Hoy no hay un instalador público.",
+    "statusBody": "No publicaremos instaladores de relleno ni te dirigiremos a binarios no oficiales. Una descarga real incluirá la plataforma compatible, la versión y las notas del lanzamiento.",
+    "platformsTitle": "Plataformas oficiales",
+    "platformsValue": "Se confirmarán con la primera versión",
+    "earlyAccessTitle": "Acceso anticipado",
+    "earlyAccessValue": "Todavía no abierto",
+    "releaseTitle": "Notas de versión y sumas de comprobación",
+    "releaseValue": "Se publicarán con una versión oficial",
+    "followKicker": "Sigue el trabajo",
+    "followTitle": "Entérate cuando empiecen las pruebas.",
+    "followBody": "Las pruebas públicas y los anuncios de descarga se compartirán en la comunidad oficial cuando existan."
+  },
+  "product": {
+    "kicker": "Producto",
+    "title": "Un espacio de trabajo donde el trabajo queda visible.",
+    "subtitle": "DualCode es un IDE en desarrollo para coordinar agentes especializados alrededor de un proyecto, mientras el desarrollador conserva el contexto y la decisión final.",
+    "capabilitiesKicker": "Dentro del espacio de trabajo",
+    "capabilitiesTitle": "Un producto construido alrededor del ciclo de revisión.",
+    "capabilitiesNote": "Cada capacidad está etiquetada con honestidad. Planificada significa prevista, no publicada; esta página no convierte un concepto en una promesa de lanzamiento.",
+    "capabilities": [
+      {
+        "id": "editor",
+        "status": "planned"
+      },
+      {
+        "id": "sessions",
+        "status": "planned"
+      },
+      {
+        "id": "orchestration",
+        "status": "planned"
+      },
+      {
+        "id": "history",
+        "status": "planned"
+      },
+      {
+        "id": "terminal",
+        "status": "planned"
+      },
+      {
+        "id": "memory",
+        "status": "planned"
+      },
+      {
+        "id": "visualBrain",
+        "status": "planned"
+      }
+    ],
+    "capability": {
+      "editor": {
+        "title": "Editor de código y explorador",
+        "body": "Lee y cambia archivos del proyecto en el mismo lugar donde se conversa sobre el trabajo de los agentes, con el código como fuente de verdad."
+      },
+      "sessions": {
+        "title": "Sesiones de agentes",
+        "body": "Da a cada agente una visión clara del trabajo para que uno planifique, otro implemente y tú puedas comparar su razonamiento."
+      },
+      "orchestration": {
+        "title": "Orquestación",
+        "body": "Divide un objetivo grande en tareas visibles y asigna cada una al agente o herramienta más adecuado."
+      },
+      "history": {
+        "title": "Historial y aprobaciones",
+        "body": "Conserva un registro legible de cambios, comandos y aprobaciones para entender qué ocurrió antes de aceptarlo."
+      },
+      "terminal": {
+        "title": "Terminal y revisión",
+        "body": "Ejecuta comprobaciones en el espacio de trabajo e inspecciona el resultado con el mismo traspaso deliberado entre acción y revisión."
+      },
+      "memory": {
+        "title": "Memoria local",
+        "body": "Organiza el conocimiento duradero del proyecto cerca del espacio de trabajo, con la intención de que sea inspeccionable y editable."
+      },
+      "visualBrain": {
+        "title": "Visual Brain",
+        "body": "Una forma visual planificada de explorar relaciones en el contexto guardado, sin fingir que un concepto ya está implementado."
+      }
+    },
+    "flowKicker": "El ciclo de colaboración",
+    "flowTitle": "De la petición al cambio revisado.",
+    "flowNote": "El producto está pensado alrededor de un traspaso, no de una respuesta opaca. Cada paso deja espacio para inspeccionar, redirigir o detenerse.",
+    "flow": [
+      {
+        "id": "intent"
+      },
+      {
+        "id": "split"
+      },
+      {
+        "id": "work"
+      },
+      {
+        "id": "review"
+      }
+    ],
+    "flowStep": {
+      "intent": {
+        "title": "Fija la intención",
+        "body": "Describe el resultado y los límites. El desarrollador es dueño del objetivo y de los permisos."
+      },
+      "split": {
+        "title": "Divide el trabajo",
+        "body": "El orquestador convierte el objetivo en tareas que se pueden asignar, seguir y comprobar."
+      },
+      "work": {
+        "title": "Trabaja en paralelo",
+        "body": "Los agentes especializados exploran, escriben o revisan en el mismo contexto del proyecto, con sus traspasos visibles."
+      },
+      "review": {
+        "title": "Revisa antes de aplicar",
+        "body": "Las comprobaciones, diferencias y aprobaciones mantienen la decisión final en manos de quien responde del espacio de trabajo."
+      }
+    },
+    "boundaryKicker": "El límite",
+    "boundaryTitle": "Un concepto, no un anuncio de lanzamiento.",
+    "boundaryBody": "DualCode está en desarrollo. Algunas capacidades siguen planificadas, los proveedores ven lo que les envías y aquí no se afirma ningún rendimiento o disponibilidad sin una versión verificada."
+  },
+  "preview": {
+    "kicker": "Concepto interactivo del producto",
+    "title": "Mira el ciclo de colaboración.",
+    "subtitle": "Cambia de agente, elige una tarea y abre la memoria local en este recorrido solo de interfaz. Aquí no se llama a ningún modelo ni se cambian tus archivos.",
+    "labelNote": "Vista previa de interfaz guionizada — no es una versión conectada del producto.",
+    "workspaceTitle": "Una tarea en marcha",
+    "agentSwitchLabel": "Elige una vista de agente",
+    "tasksTitle": "Tareas de ejemplo",
+    "scriptedNote": "Todas las salidas están guionizadas para este concepto.",
+    "codeLabel": "Espacio de trabajo / código",
+    "fileState": "concepto de solo lectura",
+    "selectedTaskLabel": "Tarea seleccionada",
+    "inspectorLabel": "Agente y memoria local",
+    "tasks": [
+      {
+        "id": "refactor",
+        "label": "Separar módulo de auth"
+      },
+      {
+        "id": "review",
+        "label": "Revisar el cambio"
+      },
+      {
+        "id": "context",
+        "label": "Buscar contexto del proyecto"
+      }
+    ],
+    "taskDetails": {
+      "refactor": {
+        "title": "Separar módulo de auth",
+        "body": "Una tarea de planificación se entrega a una tarea de implementación, con el límite visible antes de cambiar archivos."
+      },
+      "review": {
+        "title": "Revisar el cambio",
+        "body": "Una segunda pasada comprueba la diferencia propuesta y señala qué necesita todavía la aprobación del desarrollador."
+      },
+      "context": {
+        "title": "Buscar contexto del proyecto",
+        "body": "Las notas locales dirigen al agente hacia los archivos relevantes sin fingir que la memoria es un modelo en la nube."
+      }
+    },
+    "code": {
+      "refactor": "export async function openSession(user: User) {\n  const token = await issueToken(user.id);\n  return store.save(user.id, token);\n}",
+      "review": "const changes = await diff('auth');\n\nif (changes.risk === 'unknown') {\n  return requestApproval(changes);\n}",
+      "context": "const notes = memory.find({\n  project: 'dualcode',\n  topic: 'session boundaries'\n});"
+    },
+    "agents": {
+      "claude": {
+        "name": "Claude",
+        "role": "Planifica el traspaso",
+        "line": "He encontrado dos límites que conviene revisar antes de implementar.",
+        "color": "claude"
+      },
+      "codex": {
+        "name": "Codex",
+        "role": "Implementa y comprueba",
+        "line": "Puedo hacer el cambio y ejecutar después las comprobaciones del espacio de trabajo.",
+        "color": "codex"
+      }
+    },
+    "memoryTitle": "Memoria local",
+    "memoryBody": "Un pequeño mapa de contexto inspeccionable para este concepto.",
+    "memoryItems": "límites de auth|política de aprobación|notas de sesión",
+    "memoryOpen": "Abrir memoria",
+    "memoryClose": "Cerrar memoria"
+  },
+  "faq": {
+    "kicker": "Preguntas frecuentes",
+    "title": "Respuestas directas.",
+    "subtitle": "Respuestas breves y honestas sobre lo que DualCode es y no es hoy. Si una función aún no está construida, lo decimos.",
+    "items": [
+      {
+        "q": "¿Qué es DualCode?",
+        "a": "DualCode es un IDE en desarrollo construido en torno a agentes de IA que colaboran en un mismo espacio de trabajo mientras el desarrollador mantiene el control. Todavía no está publicado."
+      },
+      {
+        "q": "¿Puedo descargarlo hoy?",
+        "a": "No. No hay instalador público. La página Descarga listará versiones oficiales solo cuando exista un lanzamiento real y sus enlaces estén verificados."
+      },
+      {
+        "q": "¿Cuánto costará?",
+        "a": "No se ha anunciado ningún precio. No publicaremos planes ni precios hasta que sean reales y definitivos."
+      },
+      {
+        "q": "¿Qué modelos de IA usa?",
+        "a": "DualCode está diseñado para coordinar varios agentes, como Claude y Codex. Qué proveedores funcionan depende de las cuentas y herramientas que conectes. Nada de esto implica una alianza oficial con ningún proveedor."
+      },
+      {
+        "q": "¿Mi código sale de mi equipo?",
+        "a": "El objetivo de diseño es local primero: la memoria del proyecto se guarda en tu equipo y el producto no envía datos por defecto. Cuando usas un modelo en la nube, los prompts y el contexto que envías van a ese proveedor. La página Transparencia indica qué está realmente implementado."
+      },
+      {
+        "q": "¿Este sitio web me rastrea?",
+        "a": "No. No carga analíticas, píxeles publicitarios ni scripts de terceros. Lo único que guarda en tu navegador es el idioma elegido, para abrir el sitio en ese idioma."
+      },
+      {
+        "q": "¿La Demostración interactiva es el producto real?",
+        "a": "No. Es un concepto solo de interfaz. No llama a ningún modelo y todo lo que muestra está guionizado, para ilustrar cómo podrían encajar agentes, tareas y memoria local."
+      },
+      {
+        "q": "¿Hay un plan para empresas?",
+        "a": "Hoy no. Las capacidades para equipos y empresas son una dirección planificada o a largo plazo y no tienen fechas, precios ni certificaciones."
+      },
+      {
+        "q": "¿Quién construye DualCode?",
+        "a": "Un equipo de cinco personas. La página Equipo muestra sus identificadores tal como los proporcionaron; los cargos y biografías aparecerán solo cuando cada persona los confirme."
+      },
+      {
+        "q": "¿Cómo sigo el progreso?",
+        "a": "La Hoja de ruta lista cada etapa con su estado real y sin fechas prometidas. Los anuncios van a la comunidad oficial de Discord."
+      }
+    ],
+    "moreTitle": "¿Sigues con dudas?",
+    "moreBody": "Consulta la página Transparencia para ver el estado de cada capacidad, o mira cómo contactarnos."
+  },
+  "contact": {
+    "kicker": "Contacto",
+    "title": "Habla con quienes lo construyen.",
+    "subtitle": "En esta página solo aparecen los canales que los responsables han publicado. Si falta un canal, aún no está disponible; no te dirigimos a canales no oficiales.",
+    "channelsTitle": "Canales oficiales",
+    "emailLabel": "Correo",
+    "emailPending": "La dirección aún no se ha publicado.",
+    "emailOpen": "Enviar un correo",
+    "discordLabel": "Comunidad en Discord",
+    "discordNote": "El mejor lugar para seguir el desarrollo y enviar comentarios.",
+    "githubLabel": "GitHub",
+    "githubPending": "El enlace al repositorio aún no se ha publicado.",
+    "githubOpen": "Abrir GitHub",
+    "securityTitle": "Informar de un problema de seguridad",
+    "securityBody": "Todavía no se ha publicado un contacto de seguridad dedicado. Mientras tanto, no envíes detalles sensibles de vulnerabilidades por canales públicos.",
+    "enterpriseTitle": "Interés empresarial",
+    "enterpriseBody": "Aún no hay formulario de registro empresarial. Aparecerá solo cuando exista un destino real, una finalidad clara y una política de privacidad adecuada.",
+    "noForm": "Este sitio no tiene formulario de contacto y no guarda nada de lo que escribes."
+  },
+  "dash": {
+    "kicker": "Espacio en vivo",
+    "title": "Mira cómo se desarrolla una sesión.",
+    "body": "Una sesión guionizada con dos agentes y un desarrollador: enrutado, lectura, edición, pruebas, revisión, una puerta de aprobación y memoria. Es una simulación de la idea, no una grabación de una versión publicada.",
+    "cta": "Abrir la vista previa completa",
+    "label": "Sesión simulada del espacio de trabajo de DualCode",
+    "srSummary": "Sesión simulada. Un desarrollador pide añadir caducidad de sesión al módulo de autenticación. El orquestador envía la planificación a Claude y la implementación a Codex. Leen el código, planifican, editan dos archivos, ejecutan pruebas, revisan el diff y corrigen un caso de desfase de reloj; después piden permiso al desarrollador antes de aplicar los cambios.",
+    "window": "dualcode — auth-service",
+    "controls": {
+      "play": "Reanudar",
+      "pause": "Pausar",
+      "replay": "Repetir",
+      "approve": "Aprobar"
+    },
+    "panels": {
+      "agents": "Agentes",
+      "tasks": "Tareas",
+      "diff": "Revisión del diff",
+      "terminal": "Registro de sesión",
+      "memory": "Memoria local",
+      "status": "Estado del proyecto"
+    },
+    "who": {
+      "you": "Tú",
+      "orch": "Orquestador",
+      "claude": "Claude",
+      "codex": "Codex",
+      "sys": "Sistema"
+    },
+    "agentStatus": {
+      "idle": "Inactivo",
+      "ready": "Listo",
+      "reading": "Leyendo código",
+      "planned": "Plan listo",
+      "reviewing": "Revisando diff",
+      "waiting": "Esperando",
+      "done": "Hecho",
+      "editing": "Editando archivos",
+      "tested": "Pruebas superadas",
+      "applying": "Aplicando corrección",
+      "approval": "Requiere aprobación",
+      "approved": "Aprobado"
+    },
+    "task": {
+      "plan": "Planificar el cambio",
+      "implement": "Implementar y probar",
+      "review": "Revisar el diff",
+      "apply": "Aplicar al proyecto"
+    },
+    "taskState": {
+      "queued": "En cola",
+      "active": "En curso",
+      "done": "Hecha"
+    },
+    "diffEmpty": "Aún no hay cambios.",
+    "live": "En vivo",
+    "log": {
+      "task": "añadir caducidad de sesión al módulo de autenticación",
+      "route": "Plan → Claude · implementación → Codex",
+      "read": "Leyendo src/auth/ (4 archivos)",
+      "plan": "Plan listo: caducidad en sesiones, 2 archivos",
+      "memory": "Anotado en la memoria local: el código de auth vive en src/auth/",
+      "edit": "Editando src/auth/session.ts",
+      "create": "Creado src/auth/expiry.ts",
+      "tests": "Pruebas superadas: 12 de 12",
+      "review": "Revisando el diff combinado",
+      "handoff": "@codex isExpired ignora el desfase de reloj — añade una tolerancia de 5 s",
+      "fix": "Añadida la tolerancia SKEW_MS en expiry.ts",
+      "ask": "Permiso necesario: aplicar 2 archivos modificados al proyecto",
+      "approved": "Aprobado",
+      "done": "Cambios aplicados. Memoria actualizada."
+    },
+    "memoryHint": "en este equipo",
+    "memoryEmpty": "Aún no hay nada guardado.",
+    "memoryItems": {
+      "memory": "El código de auth vive en src/auth/",
+      "tests": "Las pruebas se ejecutan con npm test",
+      "done": "Las sesiones caducan a los 30 min, con 5 s de tolerancia de reloj"
+    },
+    "state": {
+      "files": "Archivos cambiados",
+      "tests": "Pruebas",
+      "review": "Revisión",
+      "permissions": "Permisos"
+    },
+    "stateValue": {
+      "testsPending": "Pendientes",
+      "testsRunning": "En ejecución",
+      "testsPassed": "Superadas",
+      "reviewPending": "Pendiente",
+      "reviewActive": "En revisión",
+      "reviewApproved": "Aprobada",
+      "permNone": "No requeridos",
+      "permAsk": "Esperando tu OK",
+      "permGranted": "Concedidos"
+    },
+    "simNote": "Vista conceptual — una simulación guionizada. No se llama a ningún modelo ni se ejecuta código."
+  },
+  "header": {
+    "cta": "Vista previa"
+  }
+}

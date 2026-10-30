@@ -1,0 +1,27 @@
+:root {
+  --bg: #090a0d;
+  --panel: #111318;
+  --surface: #191c23;
+  --line: #262a33;
+  --line-strong: #353a46;
+  --text: #f1f2f5;
+  --muted: #9298a5;
+  /* Palette sampled from the official infinity-loop logo. */
+  --claude: #f47a3c;
+  --claude-soft: #f89858;
+  --claude-deep: #c83808;
+  --codex: #2fd6b4;
+  --codex-deep: #00806c;
+
+  --ok: #7bd88f;
+  --warn: #e5c25c;
+
+  --font-sans: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, 'Cascadia Code', Consolas, monospace;
+
+  --container: 1180px;
+  --gutter: clamp(1.25rem, 4vw, 2.5rem);
+  --radius: 14px;
+  --header-h: 64px;
+  --section-y: clamp(4rem, 9vw, 7.5rem);
+}

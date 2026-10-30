@@ -1,0 +1,1027 @@
+{
+  "meta": {
+    "siteName": "DualCode",
+    "tagline": "Your code. Your AI. Your control.",
+    "faq": {
+      "title": "FAQ — DualCode",
+      "description": "Straight answers about DualCode: what it is, what exists today, privacy, models, pricing and how to follow the project."
+    },
+    "contact": {
+      "title": "Contact — DualCode",
+      "description": "How to reach the DualCode team. Only channels the owners have published appear here."
+    },
+    "home": {
+      "title": "DualCode — One workspace. Multiple minds.",
+      "description": "DualCode is an IDE in development built around AI agents that collaborate in one workspace while the developer stays in control."
+    },
+    "community": {
+      "title": "Community — DualCode",
+      "description": "Build the future of DualCode with us: updates, feedback, bug reports and technical conversations."
+    },
+    "notFound": {
+      "title": "Page not found — DualCode",
+      "description": "This page does not exist."
+    },
+    "privacy": {
+      "title": "Privacy First — DualCode",
+      "description": "The privacy principles DualCode is built around, and an accurate account of what this website does and does not collect."
+    },
+    "transparency": {
+      "title": "Transparency — DualCode",
+      "description": "What is available, experimental and planned in DualCode, where data goes, and how we report on it."
+    },
+    "technology": {
+      "title": "Technology — DualCode",
+      "description": "How DualCode is designed to coordinate AI agents: developer, orchestrator, agents, workspace and review."
+    },
+    "product": {
+      "title": "Product — DualCode",
+      "description": "A transparent look at the DualCode workspace: editor, agents, orchestration, review and local context."
+    },
+    "preview": {
+      "title": "Interactive Preview — DualCode",
+      "description": "Explore a scripted, front-end-only concept of how DualCode agents, tasks and local memory could work together."
+    },
+    "roadmap": {
+      "title": "Roadmap — DualCode",
+      "description": "The qualitative roadmap for DualCode, with transparent status and no invented delivery dates."
+    },
+    "team": {
+      "title": "Team — DualCode",
+      "description": "Meet the human team behind DualCode, presented without unconfirmed titles or biographies."
+    },
+    "enterprise": {
+      "title": "Enterprise Vision — DualCode",
+      "description": "The long-term vision for teams and enterprise, clearly separated from what is available today."
+    },
+    "download": {
+      "title": "Download — DualCode",
+      "description": "The current DualCode download status and where to follow verified early access announcements."
+    }
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "mobileNav": "Mobile navigation",
+    "language": "Language",
+    "switchToEn": "Switch to English",
+    "switchToEs": "Cambiar a español",
+    "home": "DualCode home",
+    "external": "(opens in a new tab)"
+  },
+  "nav": {
+    "product": "Product",
+    "technology": "Technology",
+    "privacy": "Privacy",
+    "transparency": "Transparency",
+    "roadmap": "Roadmap",
+    "community": "Community",
+    "team": "Team",
+    "enterprise": "Enterprise",
+    "download": "Download",
+    "preview": "Interactive Preview",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "status": {
+    "available": "Available",
+    "experimental": "Experimental",
+    "planned": "Planned",
+    "futureVision": "Future Vision",
+    "inDevelopment": "In development",
+    "concept": "Concept Preview",
+    "principle": "Design principle"
+  },
+  "discord": {
+    "join": "Join our Discord",
+    "short": "Discord"
+  },
+  "footer": {
+    "blurb": "An IDE in development for multi-agent collaboration. Local-first by design, with the developer in control.",
+    "product": "Product",
+    "project": "Project",
+    "statusLine": "Product status: in development. Nothing on this site is a release announcement.",
+    "rights": "© DualCode. All rights reserved.",
+    "noTracking": "This site loads no analytics, ad pixels or third-party scripts.",
+    "github": "GitHub",
+    "contactMail": "Email",
+    "trust": "Trust",
+    "follow": "Follow the build",
+    "followBody": "Updates, feedback and bug reports happen in the community Discord."
+  },
+  "home": {
+    "title": "One workspace. Multiple minds. Total control.",
+    "subtitle": "DualCode is a next-generation IDE where AI agents collaborate, share context, and help developers build faster—without sacrificing transparency, privacy, or control.",
+    "why": {
+      "kicker": "Why DualCode exists",
+      "title": "Not another editor with a chat box.",
+      "body": "A single assistant bolted onto an editor has one view of your project and one way of failing. DualCode starts from a different question: what if several agents could specialize, share useful context and hand work to each other — and every step stayed visible to you?",
+      "points": [
+        "Specialized agents instead of one generalist.",
+        "Shared context that you can inspect and edit.",
+        "Permissions and confirmations before agents touch your files."
+      ],
+      "belief": "We believe you should be able to see what every agent reads, decides and changes — and say no."
+    },
+    "agents": {
+      "kicker": "Multi-agent collaboration",
+      "title": "Claude and Codex, in the same room.",
+      "body": "Agents work side by side in one workspace. One drafts, another reviews; one explores the codebase, another runs the checks. You read the transcript, approve what matters and redirect when you disagree.",
+      "emblemAlt": "DualCode logo: two heads facing each other inside an infinity loop, one orange with a spark and one teal with code brackets",
+      "claude": "Claude",
+      "codex": "Codex",
+      "you": "You",
+      "claudeRole": "Plans, writes and explains.",
+      "codexRole": "Implements, tests and cross-checks.",
+      "youRole": "Decides, approves, redirects.",
+      "note": "Provider availability depends on the accounts and tools you connect. Nothing here implies an official partnership with any provider."
+    },
+    "privacy": {
+      "kicker": "Privacy, control, local memory",
+      "title": "Your workspace is yours.",
+      "body": "DualCode is designed so the product itself does not phone home by default, and so project memory lives on your machine first. These are design principles we are building towards; the Transparency page tracks what is actually implemented.",
+      "caveat": "Be precise about this: when you use a cloud model, the prompts and context you send go to that provider. DualCode having no telemetry does not change what a provider receives.",
+      "cta": "Read the privacy principles"
+    },
+    "quantum": {
+      "kicker": "DualQuantum",
+      "title": "Context retrieval, organised locally.",
+      "body": "DualQuantum is a technology in development focused on retrieving the right context, organising knowledge on your machine and spending fewer resources doing it. We will publish numbers only when we can reproduce them.",
+      "cta": "How it fits together"
+    },
+    "roadmap": {
+      "kicker": "Roadmap and status",
+      "title": "What exists, what does not yet.",
+      "body": "Each capability is labelled Available, Experimental, Planned or Future Vision. No dates are promised.",
+      "cta": "See the roadmap"
+    },
+    "community": {
+      "kicker": "Community",
+      "title": "Build the future of DualCode with us.",
+      "body": "Follow development, send feedback, report bugs and talk shop with the people building it.",
+      "cta": "Meet the community"
+    },
+    "team": {
+      "kicker": "Meet the Team",
+      "title": "The people behind DualCode.",
+      "body": "Five humans. Roles and bios will appear once each person confirms them.",
+      "cta": "Meet the Team"
+    },
+    "final": {
+      "title": "Your code. Your AI. Your control.",
+      "body": "DualCode is in development. The best way to follow it is to join the conversation."
+    },
+    "ctaDashboard": "See it work",
+    "highlights": [
+      {
+        "label": "Agents",
+        "value": "Claude and Codex, side by side"
+      },
+      {
+        "label": "Memory",
+        "value": "Local-first by design"
+      },
+      {
+        "label": "Control",
+        "value": "You approve what matters"
+      },
+      {
+        "label": "Status",
+        "value": "In development"
+      }
+    ],
+    "pillars": {
+      "kicker": "Core pillars",
+      "title": "Six ideas the product is built around.",
+      "body": "Each pillar carries its real status. Some are principles we hold today, some are in development, and some are still a long-term direction.",
+      "items": [
+        {
+          "id": "multi",
+          "title": "Multi-agent collaboration",
+          "body": "Several agents work in one workspace, split the job by strength and hand work to each other instead of competing for your cursor.",
+          "status": "inDevelopment",
+          "to": "product",
+          "cta": "See how it works"
+        },
+        {
+          "id": "transparency",
+          "title": "Transparency",
+          "body": "Every step is a readable transcript: what an agent read, what it changed and why. Nothing happens off-screen.",
+          "status": "principle",
+          "to": "transparency",
+          "cta": "What is implemented"
+        },
+        {
+          "id": "privacy",
+          "title": "Privacy first",
+          "body": "No analytics and no third-party scripts on this site, and no product telemetry by design. Cloud models still receive what you send them.",
+          "status": "principle",
+          "to": "privacy",
+          "cta": "Privacy principles"
+        },
+        {
+          "id": "memory",
+          "title": "Local memory",
+          "body": "Project notes and context are meant to live on your machine first, where you can inspect, edit and delete them.",
+          "status": "inDevelopment",
+          "to": "technology",
+          "cta": "The technology"
+        },
+        {
+          "id": "security",
+          "title": "Security and permissions",
+          "body": "Agents ask before they write files or run commands. Permission scopes are being designed and are not final.",
+          "status": "planned",
+          "to": "privacy",
+          "cta": "Permission model"
+        },
+        {
+          "id": "enterprise",
+          "title": "Enterprise vision",
+          "body": "Shared policies and team controls are a long-term direction, not a product you can buy today.",
+          "status": "futureVision",
+          "to": "enterprise",
+          "cta": "Read the vision"
+        }
+      ]
+    }
+  },
+  "community": {
+    "kicker": "Community",
+    "title": "Build the future of DualCode with us.",
+    "subtitle": "DualCode is being built in the open conversation: what we ship, what we break and what we should do next.",
+    "bannerTitle": "Join the DualCode community",
+    "bannerBody": "Development news, IDE progress, feedback, ideas, bug reports, demos and technical conversations.",
+    "findTitle": "What you will find there",
+    "find": [
+      "Development news and progress on the IDE",
+      "A place to give feedback and propose ideas",
+      "Bug reports that reach the people fixing them",
+      "Demos and showcases from other users",
+      "Technical conversations about agents and tooling"
+    ],
+    "channelsTitle": "Proposed channels",
+    "channelsNote": "This is a proposal. We will confirm the real channel list once the server is set up.",
+    "channels": [
+      {
+        "name": "#announcements",
+        "desc": "Releases and important news"
+      },
+      {
+        "name": "#general",
+        "desc": "Open conversation"
+      },
+      {
+        "name": "#feedback",
+        "desc": "What works, what does not"
+      },
+      {
+        "name": "#bug-reports",
+        "desc": "Reproducible problems"
+      },
+      {
+        "name": "#showcase",
+        "desc": "Show what you built"
+      },
+      {
+        "name": "#ideas",
+        "desc": "Feature proposals"
+      },
+      {
+        "name": "#help",
+        "desc": "Questions and support"
+      }
+    ],
+    "contributeTitle": "Contribute",
+    "contribute": [
+      {
+        "title": "Suggest a feature",
+        "body": "Describe the problem you are trying to solve, not only the feature you imagine."
+      },
+      {
+        "title": "Report a bug",
+        "body": "Include your OS, the steps to reproduce it and what you expected to happen."
+      },
+      {
+        "title": "Join testing",
+        "body": "Public testing will be announced in the community when a build is ready."
+      }
+    ],
+    "statusTitle": "Product status",
+    "statusRows": [
+      {
+        "label": "IDE",
+        "value": "In development"
+      },
+      {
+        "label": "Public download",
+        "value": "Not available yet"
+      },
+      {
+        "label": "Early access",
+        "value": "Not open yet"
+      },
+      {
+        "label": "Community server",
+        "value": "Link pending"
+      }
+    ],
+    "statusNote": "Maintained by hand from the project status file. This is not a live counter.",
+    "faqTitle": "FAQ",
+    "faq": [
+      {
+        "q": "How do I join?",
+        "a": "Use the Join our Discord button on this page. It opens the official server invite."
+      },
+      {
+        "q": "Where do I report a problem?",
+        "a": "In the bug reports channel once the server is open, with your OS, steps to reproduce and what you expected."
+      },
+      {
+        "q": "How do I follow the roadmap?",
+        "a": "The roadmap page lists each stage with its real status, and announcements will be posted in the community."
+      }
+    ],
+    "linksTitle": "Official links",
+    "linksNote": "Only links supplied by the owners appear here."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "That address does not exist on this site.",
+    "back": "Back to home"
+  },
+  "privacy": {
+    "kicker": "Privacy First",
+    "title": "Your workspace is yours.",
+    "subtitle": "These are the privacy principles DualCode is built around. They are design goals. The Transparency page tracks what is actually implemented, and until something is verified we do not present it as a guarantee.",
+    "sections": [
+      {
+        "title": "No telemetry by default",
+        "status": "principle",
+        "body": "The goal is that DualCode itself sends no usage telemetry unless you choose to turn something on.",
+        "items": []
+      },
+      {
+        "title": "Local-first memory",
+        "status": "principle",
+        "body": "Project memory and notes are meant to live on your machine first, in a form you can inspect.",
+        "items": []
+      },
+      {
+        "title": "Control over stored context",
+        "status": "principle",
+        "body": "You should be able to see and change what is remembered.",
+        "items": [
+          "See what is stored.",
+          "Edit or remove entries.",
+          "Decide what is shared between agents."
+        ]
+      },
+      {
+        "title": "Permissions and confirmations",
+        "status": "principle",
+        "body": "Agents should ask before they change files or run commands, and you should be able to review what they did afterwards.",
+        "items": []
+      },
+      {
+        "title": "Provider transparency",
+        "status": "principle",
+        "body": "When you connect a cloud model provider, the prompts and project context needed for a request are sent to that provider and handled under its own terms. This is separate from DualCode's own telemetry, and we cannot make promises about a provider's practices. Read their policies.",
+        "items": []
+      },
+      {
+        "title": "Clear retention and deletion",
+        "status": "principle",
+        "body": "You should be able to tell how long something is kept and delete it. The exact mechanics will be documented once they exist.",
+        "items": []
+      }
+    ],
+    "siteTitle": "About this website",
+    "siteItems": [
+      "No analytics, advertising pixels or tracking scripts. Fonts and images are served from the site itself.",
+      "Your language choice is saved in your browser's local storage under the key dualcode.lang. It stays on your device.",
+      "The site is prepared for Cloudflare Pages hosting. Cloudflare, like any host, may keep standard technical request logs to run its infrastructure. That is separate from the site code and from the DualCode application.",
+      "This is not a formal privacy policy. A legal policy still needs human review before it is published."
+    ],
+    "limits": "What we are not saying: that nothing ever leaves your computer, that DualCode works fully offline, or that any provider handles your data in a particular way."
+  },
+  "transparency": {
+    "kicker": "Transparency",
+    "title": "What is real, and what is not yet.",
+    "subtitle": "DualCode is in development. This page separates what exists from what we intend to build, so you can judge it on facts.",
+    "legendTitle": "How we label things",
+    "legend": [
+      {
+        "status": "available",
+        "body": "Implemented and usable today."
+      },
+      {
+        "status": "experimental",
+        "body": "Works in part and may change or break."
+      },
+      {
+        "status": "planned",
+        "body": "Intended, not built yet."
+      },
+      {
+        "status": "futureVision",
+        "body": "A long-term direction with no commitment."
+      },
+      {
+        "status": "principle",
+        "body": "A design goal we are building toward and have not yet verified."
+      }
+    ],
+    "featuresTitle": "Capabilities",
+    "featuresNote": "These statuses are provisional. The team has not confirmed them yet, so nothing is listed as Available. They are kept in one data file and will be updated from the real build.",
+    "feature": {
+      "editor": {
+        "name": "Code editor and file explorer",
+        "desc": "Editing and navigating project files."
+      },
+      "agentSessions": {
+        "name": "Agent sessions",
+        "desc": "A separate view for each agent working in the project."
+      },
+      "orchestration": {
+        "name": "Orchestration",
+        "desc": "Distributing tasks between agents."
+      },
+      "history": {
+        "name": "Operation history and approvals",
+        "desc": "A record of what agents did and what you approved."
+      },
+      "terminal": {
+        "name": "Terminal and code review",
+        "desc": "Running commands and reviewing changes in the workspace."
+      },
+      "memory": {
+        "name": "Local memory",
+        "desc": "Project knowledge kept on your machine."
+      },
+      "visualBrain": {
+        "name": "Visual Brain",
+        "desc": "A visual way to explore stored memory."
+      },
+      "dualQuantum": {
+        "name": "DualQuantum",
+        "desc": "Context retrieval and local knowledge organisation."
+      },
+      "teams": {
+        "name": "Team workspaces",
+        "desc": "Shared spaces and policies for groups."
+      },
+      "enterprise": {
+        "name": "Enterprise controls",
+        "desc": "SSO, role-based access, audit and data policies."
+      }
+    },
+    "sections": [
+      {
+        "title": "Where your data goes",
+        "body": "Two different things are easy to mix up.",
+        "items": [
+          "Stored locally: the intent is that project memory and settings stay on your machine. What is stored today will be listed here once confirmed.",
+          "Sent to providers: if you use a cloud model, the prompts and context for each request go to that provider. DualCode having no telemetry does not change that."
+        ]
+      },
+      {
+        "title": "Telemetry, in plain language",
+        "body": "Our goal is that DualCode does not report your usage back to us unless you opt in. This is a principle until we can verify and document it. This website uses no analytics.",
+        "items": []
+      },
+      {
+        "title": "Licensing and dependencies",
+        "body": "No source licence is declared on this site, so we do not describe DualCode as open source. Dependency and licence information will be published here when the project makes it available.",
+        "items": []
+      },
+      {
+        "title": "Testing and reporting problems",
+        "body": "This website is checked with automated browser tests and manual visual review before it is published. A dedicated security contact has not been published yet. Until then, do not send sensitive vulnerability details through public channels.",
+        "items": []
+      },
+      {
+        "title": "Changelog",
+        "body": "There are no public releases yet. When there are, this page will list real changes only.",
+        "items": []
+      }
+    ]
+  },
+  "technology": {
+    "kicker": "Technology",
+    "title": "How the pieces are meant to fit.",
+    "subtitle": "A conceptual view of DualCode's architecture. It describes the intended design, not a finished implementation.",
+    "flowTitle": "The flow",
+    "flow": [
+      {
+        "name": "Developer",
+        "desc": "Sets the goal and holds the final say."
+      },
+      {
+        "name": "Orchestrator",
+        "desc": "Splits work and routes it to agents."
+      },
+      {
+        "name": "Agents",
+        "desc": "Specialised workers such as Claude and Codex."
+      },
+      {
+        "name": "Workspace",
+        "desc": "Your files, terminal and project context."
+      },
+      {
+        "name": "Review",
+        "desc": "Changes are checked and approved by you."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Assigning and checking work",
+        "status": "planned",
+        "body": "The orchestrator is meant to break a request into tasks, give each to the agent best suited to it, and collect the results. Results are not trusted by default: another agent or you review them before they land.",
+        "items": []
+      },
+      {
+        "title": "Three things that are easy to confuse",
+        "body": "Keeping these apart is central to the design.",
+        "items": [
+          "Persistent memory: knowledge about your project that lasts between sessions and is meant to stay on your machine.",
+          "Session context: what the agents are looking at right now, which disappears when the session ends.",
+          "Model provider: the service that runs a model. It only sees what is sent in a request."
+        ]
+      },
+      {
+        "title": "DualQuantum",
+        "status": "inDevelopment",
+        "body": "A technology in development focused on retrieving the right context, organising knowledge locally and being efficient while doing it. We do not publish token or speed figures until we can reproduce them.",
+        "items": []
+      },
+      {
+        "title": "What we do not claim",
+        "body": "No benchmarks, savings percentages or comparisons with other tools are stated on this site, because none have been measured and published yet.",
+        "items": []
+      }
+    ]
+  },
+  "roadmap": {
+    "kicker": "Roadmap and status",
+    "title": "A direction, without invented dates.",
+    "subtitle": "These stages describe the order in which DualCode is expected to grow. Every status is qualitative and remains subject to verification.",
+    "stagesKicker": "The work ahead",
+    "stagesTitle": "Five connected stages",
+    "stagesNote": "The roadmap is a map of intent, not a release calendar. We will add concrete progress only when there is a build or decision to point to.",
+    "stageLabel": "Stage",
+    "noDates": "No delivery dates are promised. The Transparency page explains how product statuses are labelled.",
+    "stage": {
+      "foundation": {
+        "name": "Foundation",
+        "body": "The base for a dependable developer workspace: projects, editing, file navigation and the first agent sessions."
+      },
+      "collaboration": {
+        "name": "Collaboration",
+        "body": "The coordination layer: tasks, hand-offs, review, permissions and a clear record of what happened."
+      },
+      "intelligence": {
+        "name": "Intelligence",
+        "body": "Local memory and context tools, including DualQuantum and Visual Brain, designed to make project knowledge easier to use."
+      },
+      "platform": {
+        "name": "Platform",
+        "body": "A wider surface for extensions, integrations and personalisation once the core workspace is reliable."
+      },
+      "teams": {
+        "name": "Teams and enterprise",
+        "body": "A longer-term direction for shared policies, administration, access control and deployment options where viable."
+      }
+    }
+  },
+  "team": {
+    "kicker": "Meet the team",
+    "title": "Five humans building DualCode.",
+    "subtitle": "The people below are the human team. We are keeping the page deliberately factual until each person confirms what they want to share.",
+    "peopleKicker": "The people",
+    "peopleTitle": "Names first. Details when confirmed.",
+    "peopleNote": "No roles, legal names, biographies, photographs or social links are inferred here. The handles are shown exactly as supplied by the team.",
+    "profilePending": "Profile details pending",
+    "agentsKicker": "Separate from the team",
+    "agentsTitle": "AI agents help build the site.",
+    "agentsNote": "Claude and Codex are tools used in the development conversation. They are not human members of the DualCode team and do not replace the people listed above.",
+    "claudeNote": "AI collaborator used for planning and implementation.",
+    "codexNote": "AI collaborator used for implementation and verification."
+  },
+  "enterprise": {
+    "kicker": "Enterprise vision",
+    "title": "Built for individuals. Designed to scale.",
+    "subtitle": "DualCode starts with one developer and one workspace. This is a long-term direction for teams and organisations, not a product available to buy today.",
+    "visionKicker": "A possible progression",
+    "visionTitle": "From personal control to shared control",
+    "visionNote": "The order matters: the individual experience and its boundaries come first. Team and enterprise capabilities remain planned or future vision until they exist and can be verified.",
+    "cards": [
+      {
+        "id": "individual",
+        "status": "inDevelopment"
+      },
+      {
+        "id": "teams",
+        "status": "planned"
+      },
+      {
+        "id": "enterprise",
+        "status": "futureVision"
+      }
+    ],
+    "card": {
+      "individual": {
+        "title": "Individual",
+        "body": "A personal workspace where the developer can inspect the context, approve changes and keep project memory close.",
+        "items": [
+          "Local-first project context",
+          "Visible agent work",
+          "The developer keeps the final say"
+        ]
+      },
+      "teams": {
+        "title": "Teams",
+        "body": "A planned direction for people who need to collaborate around shared projects and agreed ways of working.",
+        "items": [
+          "Shared spaces and policies",
+          "Collaboration and review",
+          "Team-level context boundaries"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "body": "A future vision for organisations with stronger administrative, security and deployment requirements.",
+        "items": [
+          "SSO and role-based access",
+          "Audit and data policies",
+          "Private-model or self-managed options"
+        ]
+      }
+    },
+    "boundaryKicker": "The boundary",
+    "boundaryTitle": "Not a sales promise",
+    "boundaryBody": "There are no enterprise plans, prices, certifications or support commitments published here. We will document real capabilities when there is a product and a verified way to use them.",
+    "boundaryNote": "Enterprise interest registration will appear only when there is a real endpoint, a clear purpose and an appropriate privacy policy."
+  },
+  "download": {
+    "kicker": "Download",
+    "title": "Not released yet.",
+    "subtitle": "DualCode is still in development. This page will become the source for official builds once a release is ready and the links have been verified.",
+    "statusKicker": "Release status",
+    "statusTitle": "There is no public installer today.",
+    "statusBody": "We will not publish placeholder installers or point you to unofficial binaries. A real download will include the supported platform, version and release notes.",
+    "platformsTitle": "Official platforms",
+    "platformsValue": "To be confirmed with the first release",
+    "earlyAccessTitle": "Early access",
+    "earlyAccessValue": "Not open yet",
+    "releaseTitle": "Release notes and checksums",
+    "releaseValue": "Will be published with an official build",
+    "followKicker": "Follow the work",
+    "followTitle": "Hear when testing opens.",
+    "followBody": "Public testing and download announcements will be shared through the official community when they exist."
+  },
+  "product": {
+    "kicker": "Product",
+    "title": "A workspace where the work stays visible.",
+    "subtitle": "DualCode is an IDE in development for coordinating specialised agents around one project, while the developer keeps the context and the final say.",
+    "capabilitiesKicker": "Inside the workspace",
+    "capabilitiesTitle": "A product shaped around the review loop.",
+    "capabilitiesNote": "Every capability below is labelled honestly. Planned means intended, not shipped; this page does not turn a concept into a release claim.",
+    "capabilities": [
+      {
+        "id": "editor",
+        "status": "planned"
+      },
+      {
+        "id": "sessions",
+        "status": "planned"
+      },
+      {
+        "id": "orchestration",
+        "status": "planned"
+      },
+      {
+        "id": "history",
+        "status": "planned"
+      },
+      {
+        "id": "terminal",
+        "status": "planned"
+      },
+      {
+        "id": "memory",
+        "status": "planned"
+      },
+      {
+        "id": "visualBrain",
+        "status": "planned"
+      }
+    ],
+    "capability": {
+      "editor": {
+        "title": "Code editor and explorer",
+        "body": "Read and change project files in the same place where agent work is discussed, with the code remaining the source of truth."
+      },
+      "sessions": {
+        "title": "Agent sessions",
+        "body": "Give each agent a clear view of the work so one can plan, another can implement and you can compare their reasoning."
+      },
+      "orchestration": {
+        "title": "Orchestration",
+        "body": "Break a larger goal into visible tasks and route each task to the agent or tool best suited to it."
+      },
+      "history": {
+        "title": "History and approvals",
+        "body": "Keep a readable record of changes, commands and approvals so you can understand what happened before accepting it."
+      },
+      "terminal": {
+        "title": "Terminal and review",
+        "body": "Run checks in the workspace and inspect the result with the same deliberate hand-off between action and review."
+      },
+      "memory": {
+        "title": "Local memory",
+        "body": "Organise durable project knowledge close to the workspace, with the intent that it remains inspectable and editable."
+      },
+      "visualBrain": {
+        "title": "Visual Brain",
+        "body": "A planned visual way to explore relationships in stored context without pretending that a concept is already implemented."
+      }
+    },
+    "flowKicker": "The collaboration loop",
+    "flowTitle": "From request to reviewed change.",
+    "flowNote": "The product is designed around a hand-off, not a black-box answer. Each step leaves room for the developer to inspect, redirect or stop.",
+    "flow": [
+      {
+        "id": "intent"
+      },
+      {
+        "id": "split"
+      },
+      {
+        "id": "work"
+      },
+      {
+        "id": "review"
+      }
+    ],
+    "flowStep": {
+      "intent": {
+        "title": "Set the intent",
+        "body": "Describe the outcome and the boundaries. The developer owns the goal and the permissions."
+      },
+      "split": {
+        "title": "Split the work",
+        "body": "The orchestrator turns the goal into tasks that can be assigned, followed and checked."
+      },
+      "work": {
+        "title": "Work in parallel",
+        "body": "Specialised agents explore, write or review in the same project context, with their hand-offs visible."
+      },
+      "review": {
+        "title": "Review before it lands",
+        "body": "Checks, diffs and approvals keep the final decision with the person responsible for the workspace."
+      }
+    },
+    "boundaryKicker": "The boundary",
+    "boundaryTitle": "A concept, not a release announcement.",
+    "boundaryBody": "DualCode is in development. Some capabilities are still planned, providers see what you send them, and no benchmark or availability claim is made here without a verified build."
+  },
+  "preview": {
+    "kicker": "Interactive Product Concept",
+    "title": "See the collaboration loop.",
+    "subtitle": "Switch agents, choose a task and open local memory in this front-end-only walkthrough. Nothing here calls a model or changes your files.",
+    "labelNote": "Scripted interface preview — not a connected product build.",
+    "workspaceTitle": "A task in motion",
+    "agentSwitchLabel": "Choose an agent view",
+    "tasksTitle": "Example tasks",
+    "scriptedNote": "All outputs are scripted for this concept.",
+    "codeLabel": "Workspace / source",
+    "fileState": "read-only concept",
+    "selectedTaskLabel": "Selected task",
+    "inspectorLabel": "Agent and local memory",
+    "tasks": [
+      {
+        "id": "refactor",
+        "label": "Split auth module"
+      },
+      {
+        "id": "review",
+        "label": "Review the change"
+      },
+      {
+        "id": "context",
+        "label": "Find project context"
+      }
+    ],
+    "taskDetails": {
+      "refactor": {
+        "title": "Split auth module",
+        "body": "A planning task is handed to an implementation task, with the boundary visible before files change."
+      },
+      "review": {
+        "title": "Review the change",
+        "body": "A second pass checks the proposed diff and calls out what still needs the developer's approval."
+      },
+      "context": {
+        "title": "Find project context",
+        "body": "Local notes point the agent toward the relevant files without pretending that memory is a cloud model."
+      }
+    },
+    "code": {
+      "refactor": "export async function openSession(user: User) {\n  const token = await issueToken(user.id);\n  return store.save(user.id, token);\n}",
+      "review": "const changes = await diff('auth');\n\nif (changes.risk === 'unknown') {\n  return requestApproval(changes);\n}",
+      "context": "const notes = memory.find({\n  project: 'dualcode',\n  topic: 'session boundaries'\n});"
+    },
+    "agents": {
+      "claude": {
+        "name": "Claude",
+        "role": "Plans the hand-off",
+        "line": "I found two boundaries worth reviewing before implementation.",
+        "color": "claude"
+      },
+      "codex": {
+        "name": "Codex",
+        "role": "Implements and checks",
+        "line": "I can make the change, then run the workspace checks.",
+        "color": "codex"
+      }
+    },
+    "memoryTitle": "Local memory",
+    "memoryBody": "A small, inspectable context map for this concept.",
+    "memoryItems": "auth boundaries|approval policy|session notes",
+    "memoryOpen": "Open memory",
+    "memoryClose": "Close memory"
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "title": "Straight answers.",
+    "subtitle": "Short, honest answers about what DualCode is and is not today. If a feature is not built yet, we say so.",
+    "items": [
+      {
+        "q": "What is DualCode?",
+        "a": "DualCode is an IDE in development built around AI agents that collaborate in one workspace while the developer stays in control. It is not released yet."
+      },
+      {
+        "q": "Can I download it today?",
+        "a": "No. There is no public installer. The Download page will list official builds only when a real release exists and its links have been verified."
+      },
+      {
+        "q": "How much will it cost?",
+        "a": "No pricing has been announced. We will not publish plans or prices until they are real and final."
+      },
+      {
+        "q": "Which AI models does it use?",
+        "a": "DualCode is designed to coordinate several agents, such as Claude and Codex. Which providers work depends on the accounts and tools you connect. Nothing here implies an official partnership with any provider."
+      },
+      {
+        "q": "Does my code leave my machine?",
+        "a": "The design goal is local-first: project memory is kept on your machine and the product itself does not phone home by default. When you use a cloud model, the prompts and context you send go to that provider. The Transparency page tracks what is actually implemented."
+      },
+      {
+        "q": "Does this website track me?",
+        "a": "No. It loads no analytics, ad pixels or third-party scripts. The only thing it stores in your browser is your language choice, so the site opens in the language you picked."
+      },
+      {
+        "q": "Is the Interactive Preview the real product?",
+        "a": "No. It is a front-end-only concept. It calls no model and every output in it is scripted, to show how agents, tasks and local memory could fit together."
+      },
+      {
+        "q": "Is there an enterprise plan?",
+        "a": "Not today. Team and enterprise capabilities are a planned or long-term direction and carry no dates, prices or certifications."
+      },
+      {
+        "q": "Who is building DualCode?",
+        "a": "A team of five people. The Team page shows their handles as supplied; roles and biographies appear only once each person confirms them."
+      },
+      {
+        "q": "How do I follow progress?",
+        "a": "The Roadmap lists each stage with its real status and no promised dates. Announcements go to the official Discord community."
+      }
+    ],
+    "moreTitle": "Still have a question?",
+    "moreBody": "Check the Transparency page for the status of each capability, or see how to reach us."
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Talk to the people building it.",
+    "subtitle": "Only channels the owners have published appear on this page. If a channel is missing, it is not available yet; we do not point you at unofficial ones.",
+    "channelsTitle": "Official channels",
+    "emailLabel": "Email",
+    "emailPending": "Address not published yet.",
+    "emailOpen": "Send an email",
+    "discordLabel": "Community on Discord",
+    "discordNote": "The best place to follow development and send feedback.",
+    "githubLabel": "GitHub",
+    "githubPending": "Repository link not published yet.",
+    "githubOpen": "Open GitHub",
+    "securityTitle": "Reporting a security issue",
+    "securityBody": "A dedicated security contact has not been published yet. Until then, please do not send sensitive vulnerability details through public channels.",
+    "enterpriseTitle": "Enterprise interest",
+    "enterpriseBody": "There is no enterprise registration form yet. It will appear only when there is a real endpoint, a clear purpose and an appropriate privacy policy.",
+    "noForm": "This site has no contact form and stores nothing you type."
+  },
+  "dash": {
+    "kicker": "Live workspace",
+    "title": "Watch a session unfold.",
+    "body": "A scripted session of two agents and one developer: routing, reading, editing, testing, review, an approval gate and memory. It is a simulation of the idea, not a recording of a released build.",
+    "cta": "Open the full preview",
+    "label": "Simulated DualCode workspace session",
+    "srSummary": "Simulated session. A developer asks for session expiry on the auth module. The orchestrator routes planning to Claude and implementation to Codex. They read the code, plan, edit two files, run tests, review the diff and fix a clock-skew edge case, then ask the developer for permission before applying changes.",
+    "window": "dualcode — auth-service",
+    "controls": {
+      "play": "Play",
+      "pause": "Pause",
+      "replay": "Replay",
+      "approve": "Approve"
+    },
+    "panels": {
+      "agents": "Agents",
+      "tasks": "Tasks",
+      "diff": "Diff review",
+      "terminal": "Session log",
+      "memory": "Local memory",
+      "status": "Project state"
+    },
+    "who": {
+      "you": "You",
+      "orch": "Orchestrator",
+      "claude": "Claude",
+      "codex": "Codex",
+      "sys": "System"
+    },
+    "agentStatus": {
+      "idle": "Idle",
+      "ready": "Ready",
+      "reading": "Reading code",
+      "planned": "Plan ready",
+      "reviewing": "Reviewing diff",
+      "waiting": "Waiting",
+      "done": "Done",
+      "editing": "Editing files",
+      "tested": "Tests passed",
+      "applying": "Applying fix",
+      "approval": "Approval needed",
+      "approved": "Approved"
+    },
+    "task": {
+      "plan": "Plan the change",
+      "implement": "Implement and test",
+      "review": "Review the diff",
+      "apply": "Apply to workspace"
+    },
+    "taskState": {
+      "queued": "Queued",
+      "active": "In progress",
+      "done": "Done"
+    },
+    "diffEmpty": "No changes yet.",
+    "live": "Live",
+    "log": {
+      "task": "add session expiry to the auth module",
+      "route": "Plan → Claude · implementation → Codex",
+      "read": "Reading src/auth/ (4 files)",
+      "plan": "Plan ready: expiry on sessions, 2 files",
+      "memory": "Noted in local memory: auth code lives in src/auth/",
+      "edit": "Editing src/auth/session.ts",
+      "create": "Created src/auth/expiry.ts",
+      "tests": "Tests passed: 12 of 12",
+      "review": "Reviewing the combined diff",
+      "handoff": "@codex isExpired ignores clock skew — add a 5 s tolerance",
+      "fix": "Added SKEW_MS tolerance in expiry.ts",
+      "ask": "Permission needed: apply 2 changed files to the workspace",
+      "approved": "Approved",
+      "done": "Changes applied. Memory updated."
+    },
+    "memoryHint": "on this machine",
+    "memoryEmpty": "Nothing stored yet.",
+    "memoryItems": {
+      "memory": "Auth code lives in src/auth/",
+      "tests": "Tests run with npm test",
+      "done": "Sessions expire after 30 min, with 5 s clock-skew tolerance"
+    },
+    "state": {
+      "files": "Files changed",
+      "tests": "Tests",
+      "review": "Review",
+      "permissions": "Permissions"
+    },
+    "stateValue": {
+      "testsPending": "Pending",
+      "testsRunning": "Running",
+      "testsPassed": "Passed",
+      "reviewPending": "Pending",
+      "reviewActive": "In review",
+      "reviewApproved": "Approved",
+      "permNone": "None needed",
+      "permAsk": "Awaiting you",
+      "permGranted": "Granted"
+    },
+    "simNote": "Concept Preview — a scripted simulation. No model is called and no code is executed."
+  },
+  "header": {
+    "cta": "Preview"
+  }
+}
