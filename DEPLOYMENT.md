@@ -58,4 +58,4 @@ npm run build
 npx wrangler deploy
 ```
 
-For a Pages project ending in `.pages.dev`, upload the contents of `dist` and configure its SPA fallback with a Pages-compatible `/* /index.html 200` `_redirects` rule. This repository intentionally does not ship that rule in `public/`: Wrangler rejects it as an infinite loop when deploying the Worker, whose SPA fallback is provided by `wrangler.toml` instead.
+For a Pages project ending in `.pages.dev`, run `npm run build:pages` and upload the contents of `dist`. That command adds the Pages-compatible `/* /index.html 200` `_redirects` rule only to the upload artifact. The repository intentionally does not ship that rule in `public/`: Wrangler rejects it as an infinite loop when deploying the Worker, whose SPA fallback is provided by `wrangler.toml` instead.
