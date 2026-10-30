@@ -17,8 +17,8 @@ export const betaRelease = {
   version: '1.143.1-beta.4',
   fileName: 'DualcodeSetup-x64-1.143.1-beta.4.exe',
   sha256: '9c98aed2851851f0496ffd5efd531760c1bdd167f45439d8813b9a20427ac1cc',
-  downloadUrl: 'https://github.com/Valgan21/DualCode/releases/download/beta.4/DualcodeSetup-x64-1.143.1-beta.4.exe',
-  releasesUrl: 'https://github.com/Valgan21/DualCode/releases/tag/beta.4',
+  downloadUrl: 'https://github.com/Valgan21/DualCode/releases/download/beta/DualcodeSetup-x64-1.143.1-beta.4.exe',
+  releasesUrl: 'https://github.com/Valgan21/DualCode/releases/tag/beta',
 } as const;
 
 export const siteConfig = {
