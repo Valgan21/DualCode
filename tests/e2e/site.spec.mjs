@@ -223,7 +223,10 @@ test.describe('beta 4 download', () => {
       await page.goto(route);
       const button = page.locator('a.btn-primary[href$="DualcodeSetup-x64-1.143.1-beta.4.exe"]');
       await expect(button).toHaveCount(1);
-      await expect(button).toHaveAttribute('href', /^https:\/\/github\.com\/Valgan21\/DualCode\/releases\/download\//);
+      await expect(button).toHaveAttribute(
+        'href',
+        'https://github.com/Valgan21/DualCode/releases/download/beta.4/DualcodeSetup-x64-1.143.1-beta.4.exe',
+      );
       await expect(page.getByTestId('beta-sha256')).toHaveText(sha);
       const shots = page.locator('.beta-shots img');
       await expect(shots).toHaveCount(3);
