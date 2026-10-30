@@ -1,8 +1,8 @@
 # DualCode deployment
 
-The site is ready to deploy to Cloudflare Pages as a Vite static site.
+The site is ready to deploy as a Vite static site on Cloudflare Pages or Workers static assets.
 
-The intended public repository is [Valgan21/DualCode](https://github.com/Valgan21/DualCode). Before connecting Cloudflare Pages to GitHub, make sure this workspace's source files are committed and pushed to that repository; the repository currently contains only its initial README commit.
+The intended public repository is [Valgan21/DualCode](https://github.com/Valgan21/DualCode). Before connecting a hosting provider to GitHub, make sure this workspace's source files are committed and pushed to that repository.
 
 ## Cloudflare Pages settings
 
@@ -58,4 +58,4 @@ npm run build
 npx wrangler deploy
 ```
 
-For a Pages project ending in `.pages.dev`, upload the contents of `dist`; the generated `public/_redirects` file provides the SPA fallback there.
+For a Pages project ending in `.pages.dev`, upload the contents of `dist` and configure its SPA fallback with a Pages-compatible `/* /index.html 200` `_redirects` rule. This repository intentionally does not ship that rule in `public/`: Wrangler rejects it as an infinite loop when deploying the Worker, whose SPA fallback is provided by `wrangler.toml` instead.
