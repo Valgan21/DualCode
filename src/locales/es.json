@@ -56,7 +56,7 @@
     },
     "download": {
       "title": "Descarga — DualCode",
-      "description": "El estado actual de descarga de DualCode y dónde seguir los anuncios verificados de acceso anticipado."
+      "description": "Descarga DualCode 1.143.1-beta.4 para Windows x64: notas de la versión, capturas y suma de comprobación SHA-256."
     }
   },
   "a11y": {
@@ -306,7 +306,7 @@
       },
       {
         "title": "Únete a las pruebas",
-        "body": "Las pruebas públicas se anunciarán en la comunidad cuando haya una versión lista."
+        "body": "El instalador de la beta 4 está en la página de Descarga. Comparte tus comentarios en la comunidad."
       }
     ],
     "statusTitle": "Estado del producto",
@@ -317,11 +317,11 @@
       },
       {
         "label": "Descarga pública",
-        "value": "Aún no disponible"
+        "value": "Beta 4 (Windows)"
       },
       {
         "label": "Acceso anticipado",
-        "value": "Aún no abierto"
+        "value": "Beta abierta"
       },
       {
         "label": "Servidor de la comunidad",
@@ -504,7 +504,7 @@
       },
       {
         "title": "Registro de cambios",
-        "body": "Aún no hay versiones públicas. Cuando las haya, esta página listará únicamente cambios reales.",
+        "body": "La beta 4 (1.143.1-beta.4) es la primera versión descrita en este sitio. La página de Descarga lista lo que contiene.",
         "items": []
       }
     ]
@@ -668,20 +668,78 @@
   },
   "download": {
     "kicker": "Descarga",
-    "title": "Todavía no está publicado.",
-    "subtitle": "DualCode sigue en desarrollo. Esta página será la fuente de las versiones oficiales cuando haya un lanzamiento listo y los enlaces estén verificados.",
+    "title": "La beta 4 ya está disponible.",
+    "subtitle": "DualCode 1.143.1-beta.4 es una versión preliminar para Windows x64. Es una beta para pruebas, así que espera asperezas.",
     "statusKicker": "Estado del lanzamiento",
-    "statusTitle": "Hoy no hay un instalador público.",
-    "statusBody": "No publicaremos instaladores de relleno ni te dirigiremos a binarios no oficiales. Una descarga real incluirá la plataforma compatible, la versión y las notas del lanzamiento.",
+    "statusTitle": "Hay una beta pública para Windows.",
+    "statusBody": "Es una versión preliminar, no una versión estable. Solo el enlace de esta página es oficial: comprueba el SHA-256 de abajo antes de ejecutar el instalador.",
     "platformsTitle": "Plataformas oficiales",
-    "platformsValue": "Se confirmarán con la primera versión",
+    "platformsValue": "Solo Windows x64",
     "earlyAccessTitle": "Acceso anticipado",
-    "earlyAccessValue": "Todavía no abierto",
+    "earlyAccessValue": "Beta abierta (versión preliminar)",
     "releaseTitle": "Notas de versión y sumas de comprobación",
-    "releaseValue": "Se publicarán con una versión oficial",
+    "releaseValue": "Notas y SHA-256 más abajo",
     "followKicker": "Sigue el trabajo",
     "followTitle": "Entérate cuando empiecen las pruebas.",
-    "followBody": "Las pruebas públicas y los anuncios de descarga se compartirán en la comunidad oficial cuando existan."
+    "followBody": "Los anuncios de versiones se comparten en la comunidad oficial.",
+    "betaKicker": "Beta 4",
+    "betaTitle": "DualCode 1.143.1-beta.4",
+    "betaBody": "El instalador para Windows, lo que contiene esta versión y cómo verificarlo.",
+    "betaButton": "Descargar para Windows (x64)",
+    "betaAllReleases": "Todas las versiones en GitHub",
+    "betaMetaLabel": "Detalles del instalador",
+    "betaMeta": [
+      [
+        "Versión",
+        "1.143.1-beta.4"
+      ],
+      [
+        "Plataforma",
+        "Windows x64"
+      ],
+      [
+        "Archivo",
+        "DualcodeSetup-x64-1.143.1-beta.4.exe"
+      ],
+      [
+        "Tamaño",
+        "274,1 MB"
+      ]
+    ],
+    "betaShaLabel": "SHA-256",
+    "betaVerify": "Para verificar el archivo, ejecuta Get-FileHash -Algorithm SHA256 sobre el instalador en PowerShell y compara el resultado con el valor de arriba.",
+    "betaWarning": "El instalador no está firmado digitalmente, así que Windows SmartScreen puede mostrar una advertencia. Verifica el SHA-256 antes de ejecutarlo.",
+    "notesKicker": "Qué trae",
+    "notesTitle": "Qué incluye esta versión.",
+    "notes": [
+      "Un instalador de Windows x64 con el IDE DualCode y su panel de agentes.",
+      "Una pantalla de bienvenida y un panel lateral de agentes. Sin proyecto abierto, el panel te pide abrir una carpeta para poder escribir .dualcode/transcript.md y ejecutar Codex o Claude desde la raíz del proyecto.",
+      "Con una carpeta abierta, el panel ofrece un modo Equipo con Codex y Claude.",
+      "Incluye las herramientas auxiliares: Node v24.18.0, gemini-cli 0.66.0, opencode 1.19.4 (una compilación base que no requiere AVX2) y MinGit.",
+      "El instalador está recortado para reducir su tamaño: se omiten mapas de código fuente, idiomas adicionales y algunas extensiones."
+    ],
+    "limitsTitle": "Limitaciones conocidas",
+    "limits": [
+      "Calidad beta: no ha pasado por un proceso de versión estable.",
+      "Solo Windows x64. No hay compilación para macOS ni Linux.",
+      "Sin firma digital."
+    ],
+    "shotsKicker": "Capturas",
+    "shotsTitle": "La beta 4 en funcionamiento.",
+    "shots": [
+      {
+        "alt": "Pantalla de bienvenida de DualCode con las listas Start y Walkthroughs y el panel lateral de agentes a la derecha.",
+        "caption": "Pantalla de bienvenida y panel de agentes."
+      },
+      {
+        "alt": "DualCode con una carpeta de proyecto abierta y el panel de agentes mostrando el modo Equipo con Codex y Claude.",
+        "caption": "Con una carpeta abierta, modo Equipo en el panel."
+      },
+      {
+        "alt": "DualCode reiniciado en la pantalla de bienvenida, con el panel de agentes pidiendo una carpeta de proyecto.",
+        "caption": "Reinicio sin carpeta: el panel te pide abrir una."
+      }
+    ]
   },
   "product": {
     "kicker": "Producto",
@@ -862,11 +920,11 @@
     "items": [
       {
         "q": "¿Qué es DualCode?",
-        "a": "DualCode es un IDE en desarrollo construido en torno a agentes de IA que colaboran en un mismo espacio de trabajo mientras el desarrollador mantiene el control. Todavía no está publicado."
+        "a": "DualCode es un IDE construido alrededor de agentes de IA que colaboran en un mismo espacio de trabajo mientras el desarrollador mantiene el control. Está en beta: hay una versión preliminar para Windows y todavía no existe una versión estable."
       },
       {
         "q": "¿Puedo descargarlo hoy?",
-        "a": "No. No hay instalador público. La página Descarga listará versiones oficiales solo cuando exista un lanzamiento real y sus enlaces estén verificados."
+        "a": "Sí, como beta. La página de Descarga ofrece el instalador de Windows x64 de 1.143.1-beta.4 con su SHA-256. Es una versión preliminar y no está firmada digitalmente."
       },
       {
         "q": "¿Cuánto costará?",

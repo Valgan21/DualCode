@@ -215,3 +215,19 @@ test.describe('desktop header layout', () => {
     }
   }
 });
+
+test.describe('beta 4 download', () => {
+  const sha = '9c98aed2851851f0496ffd5efd531760c1bdd167f45439d8813b9a20427ac1cc';
+  for (const route of ['/en/download', '/es/descarga']) {
+    test(`${route} offers the beta installer with checksum and screenshots`, async ({ page }) => {
+      await page.goto(route);
+      const button = page.locator('a.btn-primary[href$="DualcodeSetup-x64-1.143.1-beta.4.exe"]');
+      await expect(button).toHaveCount(1);
+      await expect(button).toHaveAttribute('href', /^https:\/\/github\.com\/Valgan21\/DualCode\/releases\/download\//);
+      await expect(page.getByTestId('beta-sha256')).toHaveText(sha);
+      const shots = page.locator('.beta-shots img');
+      await expect(shots).toHaveCount(3);
+      await expect(page.locator('.beta-shots img[alt=""]')).toHaveCount(0);
+    });
+  }
+});

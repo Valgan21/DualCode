@@ -56,7 +56,7 @@
     },
     "download": {
       "title": "Download — DualCode",
-      "description": "The current DualCode download status and where to follow verified early access announcements."
+      "description": "Download DualCode 1.143.1-beta.4 for Windows x64: release notes, screenshots and SHA-256 checksum."
     }
   },
   "a11y": {
@@ -306,7 +306,7 @@
       },
       {
         "title": "Join testing",
-        "body": "Public testing will be announced in the community when a build is ready."
+        "body": "The beta 4 installer is on the Download page. Share feedback in the community."
       }
     ],
     "statusTitle": "Product status",
@@ -317,11 +317,11 @@
       },
       {
         "label": "Public download",
-        "value": "Not available yet"
+        "value": "Beta 4 (Windows)"
       },
       {
         "label": "Early access",
-        "value": "Not open yet"
+        "value": "Open beta"
       },
       {
         "label": "Community server",
@@ -504,7 +504,7 @@
       },
       {
         "title": "Changelog",
-        "body": "There are no public releases yet. When there are, this page will list real changes only.",
+        "body": "Beta 4 (1.143.1-beta.4) is the first build described on this site. The Download page lists what it contains.",
         "items": []
       }
     ]
@@ -668,20 +668,78 @@
   },
   "download": {
     "kicker": "Download",
-    "title": "Not released yet.",
-    "subtitle": "DualCode is still in development. This page will become the source for official builds once a release is ready and the links have been verified.",
+    "title": "Beta 4 is out.",
+    "subtitle": "DualCode 1.143.1-beta.4 is a pre-release build for Windows x64. It is a beta for testing, so expect rough edges.",
     "statusKicker": "Release status",
-    "statusTitle": "There is no public installer today.",
-    "statusBody": "We will not publish placeholder installers or point you to unofficial binaries. A real download will include the supported platform, version and release notes.",
+    "statusTitle": "A public beta for Windows is available.",
+    "statusBody": "This is a pre-release, not a stable version. Only the link on this page is official: check the SHA-256 below before you run the installer.",
     "platformsTitle": "Official platforms",
-    "platformsValue": "To be confirmed with the first release",
+    "platformsValue": "Windows x64 only",
     "earlyAccessTitle": "Early access",
-    "earlyAccessValue": "Not open yet",
+    "earlyAccessValue": "Open beta (pre-release)",
     "releaseTitle": "Release notes and checksums",
-    "releaseValue": "Will be published with an official build",
+    "releaseValue": "Notes and SHA-256 below",
     "followKicker": "Follow the work",
     "followTitle": "Hear when testing opens.",
-    "followBody": "Public testing and download announcements will be shared through the official community when they exist."
+    "followBody": "Release announcements are shared through the official community.",
+    "betaKicker": "Beta 4",
+    "betaTitle": "DualCode 1.143.1-beta.4",
+    "betaBody": "The Windows installer, what this build contains and how to verify it.",
+    "betaButton": "Download for Windows (x64)",
+    "betaAllReleases": "All releases on GitHub",
+    "betaMetaLabel": "Installer details",
+    "betaMeta": [
+      [
+        "Version",
+        "1.143.1-beta.4"
+      ],
+      [
+        "Platform",
+        "Windows x64"
+      ],
+      [
+        "File",
+        "DualcodeSetup-x64-1.143.1-beta.4.exe"
+      ],
+      [
+        "Size",
+        "274.1 MB"
+      ]
+    ],
+    "betaShaLabel": "SHA-256",
+    "betaVerify": "To verify the file, run Get-FileHash -Algorithm SHA256 on the installer in PowerShell and compare the result with the value above.",
+    "betaWarning": "The installer is not code-signed, so Windows SmartScreen may show a warning. Verify the SHA-256 before running it.",
+    "notesKicker": "What it brings",
+    "notesTitle": "What is in this build.",
+    "notes": [
+      "A Windows x64 installer with the DualCode IDE and its agent panel.",
+      "A welcome screen and an agent side panel. With no project open, the panel asks you to open a folder so it can write .dualcode/transcript.md and run Codex or Claude from the project root.",
+      "Once a folder is open, the panel offers a Team mode with Codex and Claude.",
+      "The helper tools are included: Node v24.18.0, gemini-cli 0.66.0, opencode 1.19.4 (a baseline build that does not require AVX2) and MinGit.",
+      "The installer is trimmed to reduce its size: source maps, extra locales and some extensions are left out."
+    ],
+    "limitsTitle": "Known limits",
+    "limits": [
+      "Beta quality: it has not been through a stable release process.",
+      "Windows x64 only. There is no macOS or Linux build.",
+      "Not code-signed."
+    ],
+    "shotsKicker": "Screenshots",
+    "shotsTitle": "Beta 4 running.",
+    "shots": [
+      {
+        "alt": "DualCode welcome screen with the Start and Walkthroughs lists and the agent side panel on the right.",
+        "caption": "Welcome screen and agent panel."
+      },
+      {
+        "alt": "DualCode with a project folder open and the agent panel showing the Team mode with Codex and Claude.",
+        "caption": "A folder open, with Team mode in the panel."
+      },
+      {
+        "alt": "DualCode relaunched on the welcome screen, with the agent panel asking for a project folder.",
+        "caption": "Relaunch with no folder: the panel asks you to open one."
+      }
+    ]
   },
   "product": {
     "kicker": "Product",
@@ -862,11 +920,11 @@
     "items": [
       {
         "q": "What is DualCode?",
-        "a": "DualCode is an IDE in development built around AI agents that collaborate in one workspace while the developer stays in control. It is not released yet."
+        "a": "DualCode is an IDE built around AI agents that collaborate in one workspace while the developer stays in control. It is in beta: a Windows pre-release is available and there is no stable release yet."
       },
       {
         "q": "Can I download it today?",
-        "a": "No. There is no public installer. The Download page will list official builds only when a real release exists and its links have been verified."
+        "a": "Yes, as a beta. The Download page offers the Windows x64 installer for 1.143.1-beta.4 with its SHA-256. It is a pre-release and is not code-signed."
       },
       {
         "q": "How much will it cost?",
