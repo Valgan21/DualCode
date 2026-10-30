@@ -91,7 +91,7 @@ export function Header() {
         <div className="header-actions">
           <LanguageSwitch />
           <DiscordCta className="btn btn-discord btn-sm header-discord" label={t('discord.short')} />
-          <PageLink to="preview" className="btn btn-primary btn-sm header-cta">
+          <PageLink to="download" className="btn btn-primary btn-sm header-cta">
             {t('header.cta')}
           </PageLink>
           <button

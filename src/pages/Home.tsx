@@ -50,7 +50,10 @@ export default function Home() {
             </h1>
             <p className="hero-sub">{t('home.subtitle')}</p>
             <div className="cta-row">
-              <a className="btn btn-primary" href="#live-workspace">
+              <PageLink to="download" className="btn btn-primary">
+                {t('home.ctaDownload')}
+              </PageLink>
+              <a className="btn btn-ghost" href="#live-workspace">
                 {t('home.ctaDashboard')}
               </a>
               <DiscordCta />

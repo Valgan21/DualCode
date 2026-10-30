@@ -173,6 +173,7 @@
       "title": "Your code. Your AI. Your control.",
       "body": "DualCode is in development. The best way to follow it is to join the conversation."
     },
+    "ctaDownload": "Download beta 4",
     "ctaDashboard": "See it work",
     "highlights": [
       {
@@ -1080,6 +1081,6 @@
     "simNote": "Concept Preview — a scripted simulation. No model is called and no code is executed."
   },
   "header": {
-    "cta": "Preview"
+    "cta": "Download beta 4"
   }
 }
